@@ -5,7 +5,6 @@ import {
   READLS_UPDATESTORE_INIT,
   UPDATE_SETTINGS_MAIN,
   ABORT_ALL,
-  INIT,
   UPDATE_BOLDFONT_MAIN,
   UPDATE_ERATHIAN_MAIN,
   UPDATE_LANG_MAIN,
@@ -119,9 +118,6 @@ export default (
               aiLevel,
             })
           : EMPTY,
-        of<RootActionType>({
-          type: INIT,
-        }),
       ).pipe(takeUntil(action$.pipe(ofType(ABORT_ALL))))
     }),
   )

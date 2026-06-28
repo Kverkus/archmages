@@ -11,11 +11,22 @@ import {
   SWITCH_DISCARD_MODE,
   SWITCH_LOCK,
   MOVE_CARD_TO_TOP,
+  AI_PLAY_CARD,
   ABORT_ALL,
 } from '@/constants/ActionTypes'
-import { cardTransitionDuration } from '@/constants/visuals'
+import {
+  aiExtraDelay,
+  noAiExtraDelay,
+  shouldUseAi,
+} from '@/constants/devSettings'
+import { aiDelay, cardTransitionDuration } from '@/constants/visuals'
+import { recordCardLeavingHand } from '@/draft/store'
 import { RootActionType } from '@/types/actionObj'
 import { RootStateType } from '@/types/state'
+import {
+  clearDrawDiscardMode,
+  consumeDrawDiscard,
+} from '@/utils/drawDiscardMode'
 import getPan from '@/utils/sound/getPan'
 import { play } from '@/utils/sound/Sound'
 
@@ -28,6 +39,16 @@ export default (
     withLatestFrom(state$),
     mergeMap(([action, state]) => {
       const { index, position, owner } = action
+      const card = state.cards.list[index]
+      const drawDiscard = state.game.discardMode ? consumeDrawDiscard() : null
+      const discardModeFinished =
+        drawDiscard !== null && drawDiscard.remaining <= 0
+      if (discardModeFinished) {
+        clearDrawDiscardMode()
+      }
+      if (card !== null) {
+        recordCardLeavingHand(owner, card.n)
+      }
       play(
         'deal',
         null,
@@ -55,13 +76,42 @@ export default (
         }),
         state.game.discardMode
           ? concat(
-              of<RootActionType>({
-                type: SWITCH_DISCARD_MODE,
-                on: false,
-              }),
-              of<RootActionType>({
-                type: DRAW_CARD,
-              }).pipe(delay(0)),
+              discardModeFinished
+                ? of<RootActionType>({
+                    type: SWITCH_DISCARD_MODE,
+                    on: false,
+                  })
+                : EMPTY,
+              drawDiscard?.drawAfterDiscard
+                ? of<RootActionType>({
+                    type: DRAW_CARD,
+                  }).pipe(delay(0))
+                : EMPTY,
+              !discardModeFinished &&
+                owner === 'opponent' &&
+                shouldUseAi &&
+                state.multiplayer.gameNumber === -1
+                ? of<RootActionType>({
+                    type: AI_PLAY_CARD,
+                  }).pipe(
+                    delay(
+                      cardTransitionDuration +
+                        aiDelay +
+                        (noAiExtraDelay ? 0 : aiExtraDelay),
+                    ),
+                  )
+                : EMPTY,
+              discardModeFinished && !drawDiscard?.playagain
+                ? concat(
+                    of<RootActionType>({
+                      type: SWITCH_LOCK,
+                      on: true,
+                    }),
+                    of<RootActionType>({
+                      type: NEXT_ROUND,
+                    }).pipe(delay(cardTransitionDuration)),
+                  )
+                : EMPTY,
             )
           : concat(
               of<RootActionType>({

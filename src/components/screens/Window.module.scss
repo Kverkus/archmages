@@ -49,7 +49,8 @@
     &.screenpref .windowinner,
     &.screenlangpref .windowinner,
     &.screenvolumepref .windowinner,
-    &.screenhelp .windowinner {
+    &.screenhelp .windowinner,
+    &.screendraftpick .windowinner {
       @apply overflow-y-auto px-4;
 
       max-height: calc(100dvh - 2em);
@@ -132,8 +133,8 @@
   .logo {
     @apply m-auto bg-no-repeat bg-center bg-contain;
 
-    background-image: url('@assets/logo/logo.svg');
-    width: 134.5px;
+    background-image: url('@assets/logo/logo-archmages.svg');
+    width: 152px;
     height: 46.5px;
   }
 
@@ -387,5 +388,22 @@
         @apply w-1/3;
       }
     }
+  }
+
+  .screenmodemenu {
+    @apply w-80 max-w-[calc(100vw-2rem)];
+  }
+
+  .screendraftpick {
+    @apply w-full max-w-screen-md;
+  }
+
+  .screendraftbetween,
+  .screendraftcomplete {
+    @apply w-96 max-w-[calc(100vw-2rem)];
+  }
+
+  .screendraftsavenotice {
+    @apply w-80 max-w-[calc(100vw-2rem)];
   }
 }

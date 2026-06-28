@@ -99,6 +99,15 @@ export const aiDecision = (
       card.score += coefs.drawDiscardPlayagain
     }
 
+    if (special?.drawDiscard) {
+      card.score +=
+        coefs.drawDiscardPlayagain *
+        Math.min(special.drawDiscard.draw, special.drawDiscard.discard)
+      if (special.drawDiscard.playagain) {
+        card.score += coefs.playagain
+      }
+    }
+
     if (special?.undiscardable) {
       card.score += coefs.undiscardable
     }

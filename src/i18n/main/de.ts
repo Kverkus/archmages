@@ -117,6 +117,11 @@ export const i18n = {
   'Apply & New Game': 'Anwenden & Neues Spiel',
   Cancel: 'Abbrechen',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Sprache',
 
   'Sound & Graphics': 'Ton & Grafik',
@@ -158,7 +163,7 @@ export const i18n = {
   'Bold font': 'Fette Schriftart',
   ERATHIAN: 'Erathian %s verwenden (nur Sprachen mit lateinischer Schrift)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Webbasierter kostenloser Open-Source HD Klon des 3DO- und NWC-Kartenspiels Arcomage aus dem Jahr 2000',
 
@@ -187,4 +192,29 @@ Rot stellt Euren Ziegel-Generator dar, der Ziegel-Ressourcen erzeugt, blau den M
 
   'Please rotate your device to landscape mode':
     'Bitte drehen Sie Ihr Gerät in das Querformat',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

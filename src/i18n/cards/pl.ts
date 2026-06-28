@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Szczęśliwy Traf',
-    desc: '+2 kamienie. +2 klejnoty. Dodatkowy ruch',
+    desc: '+2 kamienie. +2 klejnoty.',
   },
   {
     name: 'Przyjazny Teren',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Wzmocniony Mur',
-    desc: '+8 Mur',
+    desc: '+9 Mur',
   },
   {
     name: 'Brama',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Przymusowa Praca',
-    desc: '+9 Mur. -5 bestii',
+    desc: '+8 Mur. -5 bestii',
   },
   {
     name: 'Kamienny Ogród',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Amestyt',
-    desc: '+3 Wieża',
+    desc: '+2 Wieża',
   },
   {
     name: 'Tkacze Zaklęć',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Niebezpieczny Kamień',
-    desc: '+3 Wieża. Tej karty nie można odłożyć bez zagrania nią',
+    desc: '+18 Wieża. Tej karty nie można odłożyć bez zagrania nią',
   },
   {
     name: 'Słoneczny Błysk',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubin',
-    desc: '+5 Wieża',
+    desc: '+4 Wieża',
   },
   {
     name: 'Szmaragdowa Włócznia',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Szmaragd',
-    desc: '+8 Wieża',
+    desc: '+6 Wieża',
   },
   {
     name: 'Perła Mąrdości',
-    desc: '+5 Wieża. +1 Magia',
+    desc: '+4 Wieża. +1 Magia',
   },
   {
     name: 'Niszczyciel',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Szafir',
-    desc: '+11 Wieża',
+    desc: '+8 Wieża',
   },
   {
     name: 'Niezgoda',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diament',
-    desc: '+15 Wieża',
+    desc: '+10 Wieża',
   },
   {
     name: 'Sanktuarium',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Oko Smoka',
-    desc: '+20 Wieża',
+    desc: '+14 Wieża',
   },
   {
     name: 'Krystalizacja',
-    desc: '+11 Wieża. -6 Mur',
+    desc: '+9 Wieża. -6 Mur',
   },
   {
     name: 'Trzos Świecidełek',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Tęcza',
-    desc: '+1 Wieże wszystkich graczy. +3 klejnoty',
+    desc: '+2 Wieże wszystkich graczy. +4 klejnoty',
   },
   {
     name: 'Uczennica',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Choroba Wściekłych Krów',
-    desc: '-6 bestii dla wszystkich graczy',
+    desc: '-8 bestii dla wszystkich graczy',
   },
   {
     name: 'Driada',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Elficki Zwiadowca',
-    desc: 'Odłóż jedną kartę. Dobierz jedną kartę. Dodatkowy ruch',
+    desc: 'Dobierz 2 karty. Odłóż 2 karty',
   },
   {
     name: 'Banda Goblinów',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ork',
-    desc: '5 obrażeń',
+    desc: '4 obrażeń',
   },
   {
     name: 'Krasnoludy',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Miecznik',
-    desc: '6 obrażeń',
+    desc: '9 obrażeń',
   },
   {
     name: 'Ogr',
-    desc: '7 obrażeń',
+    desc: '8 obrażeń',
   },
   {
     name: 'Szalone Owce',
-    desc: '6 obrażeń. Wróg traci 3 bestie',
+    desc: '6 obrażeń. Wróg traci 4 bestie',
   },
   {
     name: 'Diablik',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Wilkołak',
-    desc: '9 obrażeń',
+    desc: '10 obrażeń',
   },
   {
     name: 'Chmura Korozji',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Złodziej',
-    desc: 'Wróg traci 10 klejnotów i 5 kamieni. Ty zyskujesz połowę z tego (liczby zaokrąglone w górę)',
+    desc: 'Wróg traci 8 klejnotów i 8 kamieni. Ty zyskujesz połowę z tego (liczby zaokrąglone w górę)',
   },
   {
     name: 'Skalny Kolos',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Smok',
-    desc: '20 obrażeń. Przeciwnik traci 10 klejnotów. -1 Lochy przeciwnika',
+    desc: '18 obrażeń. Przeciwnik traci 10 klejnotów. -1 Magia przeciwnika',
   },
   {
     name: 'Włócznik',
-    desc: 'Jeżeli Mur > Mur przeciwnika to 3 obrażenia, inaczej 2 obrażenia',
+    desc: 'Jeżeli Mur > Mur przeciwnika to 4 obrażenia, inaczej 2 obrażenia',
   },
   {
     name: 'Gnom',
-    desc: '3 obrażenia. +1 klejnot',
+    desc: '3 obrażenia. +2 klejnot',
   },
   {
     name: 'Berserker',

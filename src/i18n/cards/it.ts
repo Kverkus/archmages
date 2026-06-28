@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Nascondiglio Fortunato',
-    desc: '+2 Mattoni, +2 Gemme. Rigioca',
+    desc: '+2 Mattoni, +2 Gemme.',
   },
   {
     name: 'Terreno Amico',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Muro Rinforzato',
-    desc: '+8 Muro',
+    desc: '+9 Muro',
   },
   {
     name: 'Portone',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lavori Forzati',
-    desc: '+9 Muro, perdi 5 reclute',
+    desc: '+8 Muro, perdi 5 reclute',
   },
   {
     name: 'Giardino di Roccia',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ametista',
-    desc: '+3 Torre',
+    desc: '+2 Torre',
   },
   {
     name: 'Tessitrici di Incantesimi',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnetite',
-    desc: '+3 Torre. Questa carta non può essere scartata senza essere giocata',
+    desc: '+18 Torre. Questa carta non può essere scartata senza essere giocata',
   },
   {
     name: 'Macchia Solare',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubino',
-    desc: '+5 Torre',
+    desc: '+4 Torre',
   },
   {
     name: 'Lancia di Gemme',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Smeraldo',
-    desc: '+8 Torre',
+    desc: '+6 Torre',
   },
   {
     name: 'Perla di Saggezza',
-    desc: '+5 Torre, +1 Magia',
+    desc: '+4 Torre, +1 Magia',
   },
   {
     name: 'Frantumatore',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Zaffiro',
-    desc: '+11 Torre',
+    desc: '+8 Torre',
   },
   {
     name: 'Discordia',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamante',
-    desc: '+15 Torre',
+    desc: '+10 Torre',
   },
   {
     name: 'Santuario',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Occhio di Drago',
-    desc: '+20 Torre',
+    desc: '+14 Torre',
   },
   {
     name: 'Cristallizzazione',
-    desc: '+11 Torre, -6 Muro',
+    desc: '+9 Torre, -6 Muro',
   },
   {
     name: 'Sacco dei Giochi',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arcobaleno',
-    desc: '+1 Torre a tutti i giocatori. Vinci 3 gemme',
+    desc: '+2 Torre a tutti i giocatori. Vinci 4 gemme',
   },
   {
     name: 'Apprendista',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Mucca Pazza',
-    desc: 'Tutti i giocatori perdono 6 reclute',
+    desc: 'Tutti i giocatori perdono 8 reclute',
   },
   {
     name: 'Fata',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Esploratore Elfo',
-    desc: 'Pesca 1 carta. Scarta 1 carta. Rigioca',
+    desc: 'Pesca 2 carte. Scarta 2 carte',
   },
   {
     name: 'Mafia Goblin',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orchetto',
-    desc: '5 danni',
+    desc: '4 danni',
   },
   {
     name: 'Nani',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Massacratore',
-    desc: '6 danni',
+    desc: '9 danni',
   },
   {
     name: 'Orco',
-    desc: '7 danni',
+    desc: '8 danni',
   },
   {
     name: 'Pecora Rabbiosa',
-    desc: '6 danni. Il nemico perde 3 reclute',
+    desc: '6 danni. Il nemico perde 4 reclute',
   },
   {
     name: 'Diavoletto',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lupo Mannaro',
-    desc: '9 danni',
+    desc: '10 danni',
   },
   {
     name: 'Nube Corrosiva',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ladro',
-    desc: 'Il nemico perde 10 gemme, 5 mattoni. Vinci metà punti raccolti',
+    desc: 'Il nemico perde 8 gemme, 8 mattoni. Vinci metà punti raccolti',
   },
   {
     name: 'Gigante di Pietra',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drago',
-    desc: '20 danni. Il Nemico perde 10 gemme, -1 Dungeon del nemico',
+    desc: '18 danni. Il nemico perde 10 gemme, -1 Magia del nemico',
   },
   {
     name: 'Lanciere',
-    desc: 'Se Muro > Muro nemico fai 3 danni, altrimenti fai 2 danni',
+    desc: 'Se Muro > Muro nemico fai 4 danni, altrimenti fai 2 danni',
   },
   {
     name: 'Gnomo',
-    desc: '3 danni, +1 gemma',
+    desc: '3 danni, +2 gemma',
   },
   {
     name: 'Furioso',

@@ -118,6 +118,11 @@ export const i18n = {
   'Apply & New Game': 'Apply & New Game',
   Cancel: 'Cancel',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Language',
 
   'Sound & Graphics': 'Sound & Graphics',
@@ -159,7 +164,7 @@ export const i18n = {
   'Bold font': 'Bold font',
   ERATHIAN: 'Use Erathian %s (latin script languages only)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: "Web-based free and open source HD clone of 3DO and NWC's 2000 card game Arcomage",
 
@@ -188,4 +193,29 @@ Red represents your Quarry Generator which produces your Brick resources, blue r
 
   'Please rotate your device to landscape mode':
     'Please rotate your device to landscape mode',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

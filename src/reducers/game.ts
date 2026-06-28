@@ -5,6 +5,7 @@ import {
   SWITCH_LOCK,
   SWITCH_NEW_TURN,
   SWITCH_TURN,
+  RESTORE_DRAFT_MATCH,
 } from '@/constants/ActionTypes'
 import { RootActionType } from '@/types/actionObj'
 import { GameStateType } from '@/types/state'
@@ -23,6 +24,9 @@ export default produce((draft: GameStateType, action: RootActionType) => {
         ...defaultGame,
         playersTurn: action.playersTurn,
       }
+    }
+    case RESTORE_DRAFT_MATCH: {
+      return action.payload.game
     }
     case SWITCH_DISCARD_MODE: {
       draft.discardMode = action.on

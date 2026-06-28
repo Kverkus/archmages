@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'مخبأ الحظ',
-    desc: '\u200E+2 طوبة. \u200E+2 جوهرة. العب مرة أخرى',
+    desc: '‎+2 طوبة. ‎+2 جوهرة.',
   },
   {
     name: 'التضاريس الصديقة',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'الجدار المعزز',
-    desc: '\u200E+8 جدار',
+    desc: '‎+9 جدار',
   },
   {
     name: 'بوابة البوابة',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'العمل القسري',
-    desc: '\u200E+9 جدار، خسارة 5 مجندين',
+    desc: '‎+8 جدار، خسارة 5 مجندين',
   },
   {
     name: 'حديقة الصخور',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'الجمشت',
-    desc: '\u200E+3 برج',
+    desc: '‎+2 برج',
   },
   {
     name: 'نساج التعويذات',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'حجر المغناطيس',
-    desc: '\u200E+3 برج. لا يمكن التخلص من هذه البطاقة دون لعبها',
+    desc: '‎+18 برج. لا يمكن التخلص من هذه البطاقة دون لعبها',
   },
   {
     name: 'الشعلة الشمسية',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ياقوت',
-    desc: '\u200E+5 برج',
+    desc: '‎+4 برج',
   },
   {
     name: 'رمح الأحجار الكريمة',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'زمرد',
-    desc: '\u200E+8 برج',
+    desc: '‎+6 برج',
   },
   {
     name: 'لؤلؤة الحكمة',
-    desc: '\u200E+5 برج. \u200E+1 سحر',
+    desc: '‎+4 برج. ‎+1 سحر',
   },
   {
     name: 'محطم',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ياقوت',
-    desc: '\u200E+11 برج',
+    desc: '‎+8 برج',
   },
   {
     name: 'ديسكورد',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ماسة',
-    desc: '\u200E+15 برج',
+    desc: '‎+10 برج',
   },
   {
     name: 'ملاذ',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'عين التنين',
-    desc: '\u200E+20 برج',
+    desc: '‎+14 برج',
   },
   {
     name: 'تبلور',
-    desc: '\u200E+11 برج. \u200E-6 جدار',
+    desc: '‎+9 برج. ‎-6 جدار',
   },
   {
     name: 'حقيبة زينة',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'قوس قزح',
-    desc: '\u200E+1 برج لجميع اللاعبين. تحصل على 3 جواهر',
+    desc: '‎+2 برج لجميع اللاعبين. تحصل على 4 جواهر',
   },
   {
     name: 'متدرب',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'مرض جنون البقر',
-    desc: 'يخسر جميع اللاعبين 6 مجندين',
+    desc: 'يخسر جميع اللاعبين 8 مجندين',
   },
   {
     name: 'الجنية',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'كشاف الجان',
-    desc: 'اسحب بطاقة واحدة. تخلص من بطاقة واحدة. العب مرة أخرى',
+    desc: 'اسحب بطاقتين. تخلص من بطاقتين',
   },
   {
     name: 'حشد العفاريت',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'الأورك',
-    desc: '5 ضرر',
+    desc: '4 ضرر',
   },
   {
     name: 'الأقزام',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'سلاشر',
-    desc: '6 ضرر',
+    desc: '9 ضرر',
   },
   {
     name: 'غول',
-    desc: '7 ضرر',
+    desc: '8 ضرر',
   },
   {
     name: 'الأغنام المسعورة',
-    desc: '6 ضرر. يخسر العدو 3 مجندين',
+    desc: '6 ضرر. يخسر العدو 4 مجندين',
   },
   {
     name: 'عفريت',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'مستذئب',
-    desc: '9 ضرر',
+    desc: '10 ضرر',
   },
   {
     name: 'سحابة التآكل',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'لص',
-    desc: 'يخسر العدو 10 جواهر، 5 قطع من الطوب، تكسب 1/2 كمية. جولة لأعلى',
+    desc: 'يخسر العدو 8 جواهر، 8 قطع من الطوب، تكسب 1/2 كمية. جولة لأعلى',
   },
   {
     name: 'عملاق حجري',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'تنين',
-    desc: '20 ضرر. العدو يخسر 10 جواهر، \u200E-1 زنزانة عدو',
+    desc: '18 ضرر. العدو يخسر 10 جواهر، ‎-1 سحر العدو',
   },
   {
     name: 'رماح',
-    desc: 'إذا كان الجدار > جدار العدو يسبب 3 أضرار وإلا يسبب 2 ضرر',
+    desc: 'إذا كان الجدار > جدار العدو يسبب 4 أضرار وإلا يسبب 2 ضرر',
   },
   {
     name: 'قزم',
-    desc: '3 ضرر. \u200E+1 جوهرة',
+    desc: '3 ضرر. ‎+2 جوهرة',
   },
   {
     name: 'المحارب الهائج',

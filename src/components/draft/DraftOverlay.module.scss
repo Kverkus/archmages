@@ -1,0 +1,117 @@
+.modalbg {
+  @apply absolute top-0 left-0 z-80 w-full h-full bg-black bg-opacity-80 flex items-center justify-center;
+}
+
+.panel {
+  @apply max-h-full w-full max-w-screen-md overflow-y-auto px-5 py-4 text-white bg-black bg-opacity-70 rounded-lg;
+}
+
+.title {
+  @apply text-center text-2xl font-bold;
+}
+
+.subtitle {
+  @apply text-center text-sm text-gray-300 mt-1;
+}
+
+.modebuttons {
+  @apply flex flex-wrap justify-center gap-4 mt-5;
+
+  button {
+    @apply transition-colors duration-500 font-bold text-base py-2 px-5 border-b-4 rounded bg-blue-800 hover:bg-blue-700 border-blue-950 hover:border-blue-800;
+
+    &:active {
+      @apply border-b-0;
+
+      padding-top: calc(0.5rem + 2px);
+      padding-bottom: calc(0.5rem + 2px);
+    }
+  }
+}
+
+.drafttop {
+  @apply flex items-center justify-between gap-3 mb-3;
+}
+
+.draftcounter {
+  @apply text-lg font-bold;
+}
+
+.smallbutton {
+  @apply transition-colors duration-500 font-bold text-sm py-1 px-3 border-b-4 rounded bg-blue-800 hover:bg-blue-700 border-blue-950 hover:border-blue-800;
+
+  &:active {
+    @apply border-b-0;
+
+    padding-top: calc(0.25rem + 2px);
+    padding-bottom: calc(0.25rem + 2px);
+  }
+}
+
+.offer {
+  @apply flex flex-wrap justify-center gap-4;
+}
+
+.choice {
+  @apply relative block bg-transparent p-0 transition duration-200;
+
+  width: min(28vw, 11rem);
+  min-width: 8rem;
+  aspect-ratio: 63 / 88;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  &:hover,
+  &:focus-visible {
+    background: transparent !important;
+    filter: brightness(1.08);
+  }
+
+  &:active {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.cardframe {
+  @apply relative w-full h-full rounded shadow-lg overflow-hidden text-black;
+
+  :global(.cantoggleboldfont) {
+    font-weight: normal;
+  }
+}
+
+.decklist {
+  @apply mt-4 flex flex-wrap gap-1 text-xs text-gray-200;
+}
+
+.deckitem {
+  @apply px-2 py-0.5 rounded bg-white bg-opacity-10;
+}
+
+.hud {
+  @apply absolute z-70 top-10 text-white bg-black bg-opacity-60 rounded px-3 py-2 text-sm pointer-events-none;
+
+  left: clamp(10rem, 13vw, 14rem);
+}
+
+.hudtitle {
+  @apply font-bold;
+}
+
+.savedtoast {
+  @apply absolute z-90 left-1/2 bottom-10 -translate-x-1/2 rounded bg-black bg-opacity-80 px-4 py-2 text-sm font-bold text-white pointer-events-none;
+}
+
+.complete {
+  @apply text-center;
+}
+
+.record {
+  @apply mt-4 text-center text-xl font-bold;
+}

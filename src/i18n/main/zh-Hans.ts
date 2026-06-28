@@ -112,6 +112,11 @@ export const i18n = {
   'Apply & New Game': '应用设置并新开一局',
   Cancel: '取消',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: '语言',
 
   'Sound & Graphics': '声音和视觉',
@@ -153,7 +158,7 @@ export const i18n = {
   'Bold font': '字体加粗',
   ERATHIAN: '使用埃拉西亚文字 %s（仅限拉丁字母语言）',
 
-  'ArcoMage HD': '魔幻牌HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Web 浏览器版本的 3DO/NWC 2000年卡牌游戏魔幻牌的免费开源高清克隆',
 
@@ -180,4 +185,29 @@ export const i18n = {
   // %s1 and %s2 do not need to be translated. %s1 = 'Preferences' ; %s2 = 'Apply & New Game'
 
   'Please rotate your device to landscape mode': '请将设备旋转到横向模式',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

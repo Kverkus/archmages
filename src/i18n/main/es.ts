@@ -119,6 +119,11 @@ export const i18n = {
   'Apply & New Game': 'Aplicar y Nuevo Juego',
   Cancel: 'Cancelar',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Idioma',
 
   'Sound & Graphics': 'Sonido y Gráficos',
@@ -160,7 +165,7 @@ export const i18n = {
   'Bold font': 'Fuente en negrita',
   ERATHIAN: 'Usar Erathian %s (sólo lenguas de escritura latina)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Clon HD web gratuito y de código abierto del juego de cartas Arcomage de 3DO y NWC del año 2000',
 
@@ -189,4 +194,29 @@ El rojo representa el Generador de Cantera, que produce los recursos de Ladrillo
 
   'Please rotate your device to landscape mode':
     'Por favor, gire su dispositivo en modo horizontal',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

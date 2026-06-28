@@ -119,6 +119,11 @@ export const i18n = {
   'Apply & New Game': 'Applica & Nuova partita',
   Cancel: 'Annulla',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Lingua',
 
   'Sound & Graphics': 'Suono e Grafica',
@@ -160,7 +165,7 @@ export const i18n = {
   'Bold font': 'Carattere grassetto',
   ERATHIAN: 'Usa Erathian %s (solo lingue con scrittura latina)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Clone HD web gratuito e open source del gioco di carte Arcomage del 2000 di 3DO e NWC',
 
@@ -189,4 +194,29 @@ il rosso rappresenta il Generatore Pietra, che produce i Mattoni; il blu rappres
 
   'Please rotate your device to landscape mode':
     'Si prega di ruotare il dispositivo in modalità orizzontale',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

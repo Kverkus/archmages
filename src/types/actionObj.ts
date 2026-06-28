@@ -68,9 +68,15 @@ import {
   SCREEN_END_MAIN,
   CLOSE_SCREEN_END_INIT,
   SCREEN_HELP,
+  SCREEN_MODE_MENU,
+  SCREEN_DRAFT_PICK,
+  SCREEN_DRAFT_BETWEEN,
+  SCREEN_DRAFT_COMPLETE,
+  SCREEN_DRAFT_SAVE_NOTICE,
   SCREEN_LANDSCAPE,
   SCREEN_DISCONNECT_NOTICE,
   CHECK_VICTORY,
+  RESTORE_DRAFT_MATCH,
   AI_PLAY_CARD,
   CHECK_SURRENDER,
   ABORT_ALL,
@@ -97,6 +103,7 @@ import {
   RECEIVE_WITH_LATENCY,
   RECEIVE,
 } from '@/constants/ActionTypes'
+import { DraftMatchSaveType } from '@/draft/persistence'
 import { AvailableLangType } from '@/i18n/types'
 import {
   CardListItemAllType,
@@ -486,6 +493,31 @@ export type ScreenHelpActionType = {
   show: boolean
 }
 
+export type ScreenModeMenuActionType = {
+  type: typeof SCREEN_MODE_MENU
+  show: boolean
+}
+
+export type ScreenDraftPickActionType = {
+  type: typeof SCREEN_DRAFT_PICK
+  show: boolean
+}
+
+export type ScreenDraftBetweenActionType = {
+  type: typeof SCREEN_DRAFT_BETWEEN
+  show: boolean
+}
+
+export type ScreenDraftCompleteActionType = {
+  type: typeof SCREEN_DRAFT_COMPLETE
+  show: boolean
+}
+
+export type ScreenDraftSaveNoticeActionType = {
+  type: typeof SCREEN_DRAFT_SAVE_NOTICE
+  show: boolean
+}
+
 export type ScreenLandscapeActionType = {
   type: typeof SCREEN_LANDSCAPE
   show: boolean
@@ -508,6 +540,11 @@ export type ScreenEndMainActionType = {
 
 export type CloseScreenEndInitMainActionType = {
   type: typeof CLOSE_SCREEN_END_INIT
+}
+
+export type RestoreDraftMatchActionType = {
+  type: typeof RESTORE_DRAFT_MATCH
+  payload: DraftMatchSaveType
 }
 
 export type AiPlayCardActionType = {
@@ -694,11 +731,17 @@ export type RootActionType =
   | ScreenLangPrefActionType
   | ScreenSgPrefActionType
   | ScreenHelpActionType
+  | ScreenModeMenuActionType
+  | ScreenDraftPickActionType
+  | ScreenDraftBetweenActionType
+  | ScreenDraftCompleteActionType
+  | ScreenDraftSaveNoticeActionType
   | ScreenLandscapeActionType
   | ScreenDisconnectNoticeActionType
   | ScreenEndActionType
   | ScreenEndMainActionType
   | CloseScreenEndInitMainActionType
+  | RestoreDraftMatchActionType
   | AiPlayCardActionType
   | CheckSurrenderActionType
   | AbortAllActionType

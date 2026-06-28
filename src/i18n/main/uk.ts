@@ -114,6 +114,11 @@ export const i18n = {
   'Apply & New Game': 'Застосувати і почати гру', // or "Почати игру!"
   Cancel: 'Відміна',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Мова',
 
   'Sound & Graphics': 'Звук і Графіка',
@@ -155,7 +160,7 @@ export const i18n = {
   'Bold font': 'Жирний шрифт',
   ERATHIAN: 'Використовувати Ерафійський %s (лише мови латинського шрифту)',
 
-  'ArcoMage HD': 'Аркомаг HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Безкоштовна та OpenSource веб-версія гри Arcomage, що була випущена 3DO і New World Computing в 2000 році',
 
@@ -183,4 +188,29 @@ export const i18n = {
 
   'Please rotate your device to landscape mode':
     'Будь ласка, поверніть прилад в альбомний режим',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

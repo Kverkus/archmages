@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Šťastný nález',
-    desc: '+2 Cihly. +2 Drahokamy. Hraješ znovu',
+    desc: '+2 Cihly. +2 Drahokamy.',
   },
   {
     name: 'Přátelský terén',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Obrněná zeď',
-    desc: '+8 Zeď',
+    desc: '+9 Zeď',
   },
   {
     name: 'Mříže',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Nucená práce',
-    desc: '+9 Zeď. Ztratíš 5 příšer',
+    desc: '+8 Zeď. Ztratíš 5 příšer',
   },
   {
     name: 'Kamenná zahrada',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ametyst',
-    desc: '+3 Věž',
+    desc: '+2 Věž',
   },
   {
     name: 'Vyvolávač',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnetovec',
-    desc: '+3 Věž, Tato karta nemůže být odložena',
+    desc: '+18 Věž, Tato karta nemůže být odložena',
   },
   {
     name: 'Sluneční záře',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubín',
-    desc: '+5 Věž',
+    desc: '+4 Věž',
   },
   {
     name: 'Diamantové kopí',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Smaragd',
-    desc: '+8 Věž',
+    desc: '+6 Věž',
   },
   {
     name: 'Perla vědění',
-    desc: '+5 Věž. +1 Magie',
+    desc: '+4 Věž. +1 Magie',
   },
   {
     name: 'Zuřivost',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Safír',
-    desc: '+11 Věž',
+    desc: '+8 Věž',
   },
   {
     name: 'Neshoda',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamant',
-    desc: '+15 Věž',
+    desc: '+10 Věž',
   },
   {
     name: 'Svatyně',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dračí oko',
-    desc: '+20 Věž',
+    desc: '+14 Věž',
   },
   {
     name: 'Krystalizace',
-    desc: '+11 Věž. -6 Zeď',
+    desc: '+9 Věž. -6 Zeď',
   },
   {
     name: 'Balíček drobností',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Duha',
-    desc: '+1 Věž všem hráčům. Získáváš 3 Drahokamy',
+    desc: '+2 Věž všem hráčům. Získáváš 4 Drahokamy',
   },
   {
     name: 'Učedník blesku',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Nemoc šílených krav',
-    desc: 'Všichni hráči -6 Příšer',
+    desc: 'Všichni hráči -8 Příšer',
   },
   {
     name: 'Víla',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Elfí průzkumník',
-    desc: 'Odložení jedné karty, přijmutí nové, hraješ znovu',
+    desc: 'Lízni 2 karty. Odlož 2 karty',
   },
   {
     name: 'Dav Goblinů',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Skřet',
-    desc: '5 Poškození',
+    desc: '4 Poškození',
   },
   {
     name: 'Trpaslíci',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dobyvatel',
-    desc: '6 Poškození',
+    desc: '9 Poškození',
   },
   {
     name: 'Zlobr',
-    desc: '7 Poškození',
+    desc: '8 Poškození',
   },
   {
     name: 'Divoká ovce',
-    desc: '6 Poškozeni. Soupeř ztratí 3 Příšery',
+    desc: '6 Poškozeni. Soupeř ztratí 4 Příšery',
   },
   {
     name: 'Imp',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Vlkodlak',
-    desc: '9 Poškození',
+    desc: '10 Poškození',
   },
   {
     name: 'Mrak koroze',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Zloděj',
-    desc: 'Soupeř ztratí 10 Drahokamů, 5 Cihel, Ty dostaneš 1/2 ukradeného',
+    desc: 'Soupeř ztratí 8 Drahokamů, 8 Cihel, Ty dostaneš 1/2 ukradeného',
   },
   {
     name: 'Kamený obr',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drak',
-    desc: '20 Poškození. Soupeř ztratí 10 Drahokamů, -1 soupeřova Jeskyně',
+    desc: '18 Poškození. Soupeř ztratí 10 Drahokamů, -1 soupeřova Magie',
   },
   {
     name: 'Kopiník',
-    desc: 'Když zeď > soupeřova zeď, tak 3 poškození, jinak 2 poškození',
+    desc: 'Když zeď > soupeřova zeď, tak 4 poškození, jinak 2 poškození',
   },
   {
     name: 'Gnom',
-    desc: '3 Poškození. +1 Drahokam',
+    desc: '3 Poškození. +2 Drahokam',
   },
   {
     name: 'Berserk',

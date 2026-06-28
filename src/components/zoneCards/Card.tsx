@@ -53,13 +53,20 @@ const Card = ({
     (state) => state.cards.total,
   ) // player: 4 | 5 | 6 | 7 | 8, opponent:...
   const isScreen = useAppSelector(isScreenState)
-  const cardsInHand = useAppSelector((state) => state.settings.cardsInHand) + 1
+  const cardsInHandSetting = useAppSelector(
+    (state) => state.settings.cardsInHand,
+  )
+  const layoutCardsInHand = Math.max(
+    cardsInHandSetting + 1,
+    totalObj.player,
+    totalObj.opponent,
+  )
 
   const total =
     owner === 'common'
       ? totalObj[playersTurn ? 'player' : 'opponent']
       : totalObj[owner]
-  const isM0 = total === cardsInHand
+  const isM0 = total === layoutCardsInHand
   const isCardback = n === -1 || (hideOpponentCard && owner === 'opponent')
   const type = isCardback ? undefined : dataCards[n].type
   const isNotPlayersTurn =

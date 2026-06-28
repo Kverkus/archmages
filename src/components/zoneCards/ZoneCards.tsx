@@ -9,15 +9,21 @@ import ZoneCardsInner from './ZoneCardsInner'
  */
 const ZoneCards = () => {
   const cardsInHand = useAppSelector((state) => state.settings.cardsInHand)
+  const cardTotal = useAppSelector((state) => state.cards.total)
 
   const size = useContext(GameSizeContext)
   const winHeight = size.height
   const winWidth = size.width
+  const layoutCardsInHand = Math.max(
+    cardsInHand,
+    cardTotal.player - 1,
+    cardTotal.opponent - 1,
+  )
 
   return (
     <>
       <CardPosStyle
-        cardsInHand={cardsInHand}
+        cardsInHand={layoutCardsInHand}
         winHeight={winHeight}
         winWidth={winWidth}
       />

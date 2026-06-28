@@ -119,6 +119,11 @@ export const i18n = {
   'Apply & New Game': 'Appliquer & Nouveau jeu',
   Cancel: 'Annuler',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Langue',
 
   'Sound & Graphics': 'Son & Image',
@@ -160,7 +165,7 @@ export const i18n = {
   'Bold font': 'Police en gras',
   ERATHIAN: 'Utiliser Erathian %s (langues à caractères latins uniquement)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Clone HD web gratuit et open source du jeu de cartes Arcomage de 3DO et NWC en 2000',
 
@@ -189,4 +194,29 @@ En Rouge, votre Carrière qui produit des Briques. En Bleu, votre Magie qui prod
 
   'Please rotate your device to landscape mode':
     'Veuillez faire pivoter votre appareil en mode paysage',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

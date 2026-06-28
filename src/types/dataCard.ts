@@ -5,6 +5,12 @@ export type DataCardEffectPersonType = PersonStatusType
 export type DataCardSpecialType = {
   playagain?: boolean
   drawDiscardPlayagain?: boolean
+  drawDiscard?: {
+    draw: number
+    discard: number
+    drawAfterDiscard?: boolean
+    playagain?: boolean
+  }
   undiscardable?: boolean
 }
 

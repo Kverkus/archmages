@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '幸运宝藏',
-    desc: '砖头+2，宝石+2，再次出牌',
+    desc: '砖头+2，宝石+2',
   },
   {
     name: '友善地形',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '强化墙壁',
-    desc: '城墙+8',
+    desc: '城墙+9',
   },
   {
     name: '神秘闸门',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '强制劳役',
-    desc: '城墙+9，怪物-5',
+    desc: '城墙+8，怪物-5',
   },
   {
     name: '岩石花园',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '紫色水晶',
-    desc: '城堡+3',
+    desc: '城堡+2',
   },
   {
     name: '魔法编织',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '怪石缠身',
-    desc: '城堡+3，这张牌不能弃换，只能使用',
+    desc: '城堡+18，这张牌不能弃换，只能使用',
   },
   {
     name: '太阳耀斑',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '深红宝石',
-    desc: '城堡+5',
+    desc: '城堡+4',
   },
   {
     name: '水晶之矛',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '神奇翡翠',
-    desc: '城堡+8',
+    desc: '城堡+6',
   },
   {
     name: '智慧珍珠',
-    desc: '城堡+5，宝石产量+1',
+    desc: '城堡+4，宝石产量+1',
   },
   {
     name: '碎裂狂徒',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '蓝色宝石',
-    desc: '城堡+11',
+    desc: '城堡+8',
   },
   {
     name: '不可调和',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '钻石永恒',
-    desc: '城堡+15',
+    desc: '城堡+10',
   },
   {
     name: '庇护圣地',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '神龙之眼',
-    desc: '城堡+20',
+    desc: '城堡+14',
   },
   {
     name: '结晶宝石',
-    desc: '城堡+11，城墙-6',
+    desc: '城堡+9，城墙-6',
   },
   {
     name: '杂物之袋',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '雨后彩虹',
-    desc: '双方城堡同时+1，己方宝石+3',
+    desc: '双方城堡同时+2，己方宝石+4',
   },
   {
     name: '魔法学徒',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '疯牛疾病',
-    desc: '双方怪物同时-6',
+    desc: '双方怪物同时-8',
   },
   {
     name: '幻境仙子',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '精灵密探',
-    desc: '换一张牌后，再次出牌',
+    desc: '抽2张牌，弃2张牌',
   },
   {
     name: '地精暴徒',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '兽人进攻',
-    desc: '5点攻击',
+    desc: '4点攻击',
   },
   {
     name: '矮人小队',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '杀人魔鬼',
-    desc: '6点攻击',
+    desc: '9点攻击',
   },
   {
     name: '食人巨妖',
-    desc: '7点攻击',
+    desc: '8点攻击',
   },
   {
     name: '狂暴公羊',
-    desc: '6点攻击，对手怪物-3',
+    desc: '6点攻击，对手怪物-4',
   },
   {
     name: '恶鬼作怪',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '半人半狼',
-    desc: '9点攻击',
+    desc: '10点攻击',
   },
   {
     name: '腐蚀之云',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '无影神偷',
-    desc: '对手宝石-10，砖头-5，你得到其中一半（向上取整）',
+    desc: '对手宝石-8，砖头-8，你得到其中一半（向上取整）',
   },
   {
     name: '岩石巨人',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '无敌天龙',
-    desc: '20点攻击，对手宝石-10，怪物产量-1',
+    desc: '18点攻击，对手宝石-10，宝石产量-1',
   },
   {
     name: '长矛枪兵',
-    desc: '如果城墙多于对手，则3点攻击，否则2点攻击',
+    desc: '如果城墙多于对手，则4点攻击，否则2点攻击',
   },
   {
     name: '顽皮侏儒',
-    desc: '3点攻击，宝石+1',
+    desc: '3点攻击，宝石+2',
   },
   {
     name: '狂暴战士',

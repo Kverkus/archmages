@@ -5,8 +5,7 @@ import { SCREEN_HELP } from '@/constants/ActionTypes'
 import {
   authorUrl,
   appVersion,
-  githubUrl,
-  tutorialImageUrl,
+  upstreamGithubUrl,
 } from '@/constants/devSettings'
 import { I18nContext } from '@/i18n/I18nContext'
 import Window from './Window'
@@ -14,58 +13,6 @@ import styles from './Window.module.scss'
 
 const Help = () => {
   const _ = useContext(I18nContext)
-
-  const str1 = _.i18n(
-    'Please go to %s to view more information (including %s1), star the repo and follow %s2 there.',
-  )
-
-  const arr1: React.ReactNode[] = str1.split(/(%s\d?)/g)
-
-  arr1.forEach((item, i) => {
-    if (typeof item === 'string' && item.match(/^%s\d?$/)) {
-      switch (item) {
-        case '%s':
-          arr1[i] = (
-            <a
-              key={item}
-              href={githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {_.i18n('the GitHub project page')}
-            </a>
-          )
-          break
-        case '%s1':
-          arr1[i] = (
-            <a
-              key={item}
-              href={tutorialImageUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {_.i18n('an informative tutorial image in English')}
-            </a>
-          )
-          break
-        case '%s2':
-          arr1[i] = (
-            <a
-              key={item}
-              href={authorUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              dir="ltr"
-            >
-              @tomchen
-            </a>
-          )
-          break
-        default:
-          break
-      }
-    }
-  })
 
   return (
     <Window screenActionType={SCREEN_HELP}>
@@ -80,7 +27,17 @@ const Help = () => {
         {_.i18n('DESC')}
       </p>
       <p className="help-text select-text">
-        <strong>{arr1}</strong>
+        <strong>
+          The project is based on the open-source remake{' '}
+          <a href={upstreamGithubUrl} target="_blank" rel="noopener noreferrer">
+            ArcoMage HD
+          </a>{' '}
+          by{' '}
+          <a href={authorUrl} target="_blank" rel="noopener noreferrer">
+            tomchen
+          </a>
+          .
+        </strong>
       </p>
       <p className="help-text select-text">
         <strong>

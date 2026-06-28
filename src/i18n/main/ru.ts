@@ -115,6 +115,13 @@ export const i18n = {
   'Apply & New Game': 'Применить и начать игру', // or "Начать игру!"
   Cancel: 'Отмена',
 
+  'Game mode': '\u0420\u0435\u0436\u0438\u043c \u0438\u0433\u0440\u044b',
+  'Choose a game mode':
+    '\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0440\u0435\u0436\u0438\u043c \u0438\u0433\u0440\u044b',
+  Classic:
+    '\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0439',
+  Draft: '\u0414\u0440\u0430\u0444\u0442',
+
   Language: 'Язык',
 
   'Sound & Graphics': 'Звук и Графика',
@@ -156,7 +163,7 @@ export const i18n = {
   'Bold font': 'Жирный шрифт',
   ERATHIAN: 'Использовать Эрафийский %s (только языки латинской графики)',
 
-  'ArcoMage HD': 'Аркомаг HD', // "Аркомаг" name is well known in Russia in its RU version, since just like Gwent (known in Russia as Гвинт), it was first introduced as a minigame inside another game, so they had to translate the name
+  'ArcoMage HD': 'Архимаги',
 
   DESC: 'Бесплатная и опенсорсная веб-версия игры Arcomage, выпущенной 3DO и New World Computing в 2000 году',
 
@@ -184,4 +191,29 @@ export const i18n = {
 
   'Please rotate your device to landscape mode':
     'Пожалуйста, поверните устройство в альбомный режим',
+
+  'Draft Complete': 'Драфт завершён',
+  'Between Matches': 'Текущий прогресс',
+  'Draft progress saved': 'Прогресс драфта сохранён',
+  'Your draft progress has been saved. You can continue later.':
+    'Прогресс драфта сохранён. Вы сможете продолжить позже.',
+  'You already have a draft run in progress.':
+    'У вас уже есть начатый забег в драфте.',
+  Continue: 'Продолжить',
+  'New Draft': 'Новый драфт',
+  'Choose a card': 'Выберите карту',
+  'Last match: win': 'Последний матч: победа',
+  'Last match: loss': 'Последний матч: поражение',
+  'Last match: tie': 'Последний матч: ничья',
+  Wins: 'Победы',
+  Losses: 'Поражения',
+  'Next match': 'Следующий матч',
+  Modes: 'Режимы',
+  'Draft Victory': 'Победа в драфте',
+  'Draft Defeat': 'Поражение в драфте',
+  'Draw pile': 'Колода',
+  'Discard pile': 'Сброс',
+  'Player deck': 'Колода игрока',
+  'Opponent deck': 'Колода противника',
+  OK: 'ОК',
 }

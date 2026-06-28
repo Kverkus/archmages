@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '행운의 보물',
-    desc: '+2 벽돌. +2 보석. 다시 플레이',
+    desc: '+2 벽돌. +2 보석.',
   },
   {
     name: '우호적인 지형',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '보강 성벽',
-    desc: '+8 성벽',
+    desc: '+9 성벽',
   },
   {
     name: '차단문',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '강제 노동',
-    desc: '+9 성벽, 병사 5명을 잃습니다',
+    desc: '+8 성벽, 병사 5명을 잃습니다',
   },
   {
     name: '바위 정원',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '자수정',
-    desc: '+3 탑',
+    desc: '+2 탑',
   },
   {
     name: '주문 직조사',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '자력석',
-    desc: '+3 탑. 이 카드는 사용하지 않고 버릴 수 없습니다',
+    desc: '+18 탑. 이 카드는 사용하지 않고 버릴 수 없습니다',
   },
   {
     name: '태양 플레어',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '루비',
-    desc: '+5 탑',
+    desc: '+4 탑',
   },
   {
     name: '보석 창',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '에메랄드',
-    desc: '+8 탑',
+    desc: '+6 탑',
   },
   {
     name: '지혜의 진주',
-    desc: '+5 탑. +1 마법',
+    desc: '+4 탑. +1 마법',
   },
   {
     name: '분쇄기',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '사파이어',
-    desc: '+11 탑',
+    desc: '+8 탑',
   },
   {
     name: '불화',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '다이아몬드',
-    desc: '+15 탑',
+    desc: '+10 탑',
   },
   {
     name: '성역',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '용의 눈',
-    desc: '+20 탑',
+    desc: '+14 탑',
   },
   {
     name: '결정화',
-    desc: '+11 탑. -6 성벽',
+    desc: '+9 탑. -6 성벽',
   },
   {
     name: '장식품 주머니',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '무지개',
-    desc: '모든 플레이어의 탑 +1. 보석 3개 획득',
+    desc: '모든 플레이어의 탑 +2. 보석 4개 획득',
   },
   {
     name: '견습생',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '광우병',
-    desc: '모든 플레이어가 병사 6명을 잃습니다',
+    desc: '모든 플레이어가 병사 8명을 잃습니다',
   },
   {
     name: '요정',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '엘프 정찰병',
-    desc: '카드 1장 뽑기. 카드 1장 버리기. 다시 플레이',
+    desc: '카드 2장 뽑기. 카드 2장 버리기',
   },
   {
     name: '고블린 폭도',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '오크',
-    desc: '피해 5',
+    desc: '피해 4',
   },
   {
     name: '드워프',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '도살자',
-    desc: '피해 6',
+    desc: '피해 9',
   },
   {
     name: '오거',
-    desc: '피해 7',
+    desc: '피해 8',
   },
   {
     name: '광란의 양',
-    desc: '피해 6. 적이 병사 3명을 잃습니다',
+    desc: '피해 6. 적이 병사 4명을 잃습니다',
   },
   {
     name: '임프',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '늑대인간',
-    desc: '피해 9',
+    desc: '피해 10',
   },
   {
     name: '부식 구름',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '도둑',
-    desc: '적이 보석 10개, 벽돌 5개를 잃고, 당신은 그 절반(올림)을 획득합니다',
+    desc: '적이 보석 8개, 벽돌 8개를 잃고, 당신은 그 절반(올림)을 획득합니다',
   },
   {
     name: '돌 거인',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '드래곤',
-    desc: '피해 20. 적이 보석 10개를 잃습니다, 적 던전 -1',
+    desc: '피해 18. 적이 보석 10개를 잃습니다, 적 마법 -1',
   },
   {
     name: '창병',
-    desc: '성벽 > 적 성벽이면 피해 3, 그렇지 않으면 피해 2',
+    desc: '성벽 > 적 성벽이면 피해 4, 그렇지 않으면 피해 2',
   },
   {
     name: '놈',
-    desc: '피해 3. +1 보석',
+    desc: '피해 3. +2 보석',
   },
   {
     name: '광전사',

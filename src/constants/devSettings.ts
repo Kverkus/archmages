@@ -29,7 +29,8 @@ export const canDiscardUndiscardableWhenDDP = false
 
 export const testLatency: [number, number] = [300, 6000]
 
-export const githubUrl = 'https://github.com/arcomage/arcomage-hd'
+export const githubUrl = 'https://github.com/Kverkus/archmages'
+export const upstreamGithubUrl = 'https://github.com/arcomage/arcomage-hd'
 export const authorUrl = 'https://github.com/tomchen'
 export const tutorialImageUrl =
   'https://raw.githubusercontent.com/arcomage/arcomage-hd/main/misc/readme_images/manual.jpg'

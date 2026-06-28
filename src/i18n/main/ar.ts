@@ -89,6 +89,11 @@ export const i18n = {
   Reset: 'إعادة التعيين',
   'Apply & New Game': 'تطبيق ولعبة جديدة',
   Cancel: 'إلغاء',
+
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
   Language: 'اللغة',
   'Sound & Graphics': 'الصوت والرسومات',
   Sound: 'الصوت',
@@ -122,7 +127,7 @@ export const i18n = {
   GitHub: 'GitHub',
   'Bold font': 'خط عريض',
   ERATHIAN: 'استخدم Erathian %s (لغات الكتابة اللاتينية فقط)',
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
   DESC: 'نسخة طبق الأصل مجانية ومفتوحة المصدر على الويب من لعبة الورق Arcomage لعام 2000 من 3DO وNWC',
   'Please go to %s to view more information (including %s1), star the repo and follow %s2 there.':
     'يرجى الانتقال إلى %s لعرض المزيد من المعلومات (بما في ذلك %s1)، ووضع علامة نجمة على المستودع واتباع %s2 هناك.',
@@ -143,4 +148,29 @@ export const i18n = {
   // %s1 and %s2 do not need to be translated. %s1 = 'Preferences' ; %s2 = 'Apply & New Game'
   'Please rotate your device to landscape mode':
     'يمثل اللون الأحمر مولد المحجر الذي ينتج موارد الطوب، ويمثل اللون الأزرق مولد السحر الذي ينتج موارد الأحجار الكريمة، ويمثل اللون الأخضر مولد الزنزانة الذي ينتج موارد التجنيد.',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

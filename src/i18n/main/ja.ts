@@ -116,6 +116,11 @@ export const i18n = {
   'Apply & New Game': '適用＆新しいゲームを開始',
   Cancel: 'キャンセル',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: '言語',
 
   'Sound & Graphics': '音と視覚',
@@ -157,7 +162,7 @@ export const i18n = {
   'Bold font': '太字フォント',
   ERATHIAN: 'エラシアン文字 %s を使用します（ラテン文字の言語のみ）',
 
-  'ArcoMage HD': 'アーコメイジHD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: '3DOおよびNWCの2000カードゲームArcomageのWebベースの無料のオープンソース高解像度クローン',
 
@@ -185,4 +190,29 @@ export const i18n = {
 
   'Please rotate your device to landscape mode':
     'デバイスを横向きモードに回転させてください',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

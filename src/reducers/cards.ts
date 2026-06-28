@@ -11,6 +11,7 @@ import {
   SET_UNUSABLE,
   MOVE_CARD_TO_TOP_MAIN,
   SET_ZERO_OPACITY,
+  RESTORE_DRAFT_MATCH,
 } from '@/constants/ActionTypes'
 import { RootActionType } from '@/types/actionObj'
 import { CardStateType } from '@/types/state'
@@ -25,6 +26,9 @@ export default produce((draft: CardStateType, action: RootActionType) => {
   switch (action.type) {
     case INIT_CARD: {
       return action.payload
+    }
+    case RESTORE_DRAFT_MATCH: {
+      return action.payload.cards
     }
     case DRAW_CARD_PRE: {
       draft.list.push({

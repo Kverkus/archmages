@@ -112,6 +112,11 @@ export const i18n = {
   'Apply & New Game': '應用設定並新開一局',
   Cancel: '取消',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: '語言',
 
   'Sound & Graphics': '聲音和視覺',
@@ -153,7 +158,7 @@ export const i18n = {
   'Bold font': '字型加粗',
   ERATHIAN: '使用埃拉西亞文字 %s（僅限拉丁字母語言）',
 
-  'ArcoMage HD': '圓法師HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Web 瀏覽器版本的 3DO/NWC 2000年卡牌遊戲圓法師的免費開源高畫質克隆',
 
@@ -180,4 +185,29 @@ export const i18n = {
   // %s1 and %s2 do not need to be translated. %s1 = 'Preferences' ; %s2 = 'Apply & New Game'
 
   'Please rotate your device to landscape mode': '請將設備旋轉到橫向模式',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

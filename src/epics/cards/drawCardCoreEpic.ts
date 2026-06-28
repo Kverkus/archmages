@@ -68,7 +68,10 @@ export default (
           on: false,
           locknumber: 1,
         }).pipe(delay(0)),
-        owner === 'opponent' && shouldUseAi && multiGameNumber === -1
+        owner === 'opponent' &&
+          shouldUseAi &&
+          multiGameNumber === -1 &&
+          !state.game.discardMode
           ? of<RootActionType>({
               type: AI_PLAY_CARD,
             }).pipe(

@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Szerencsés lelet',
-    desc: '+2 tégla, +2 drágakő. Újra te jössz',
+    desc: '+2 tégla, +2 drágakő.',
   },
   {
     name: 'Barátságos terep',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Megerősített fal',
-    desc: '+8 fal',
+    desc: '+9 fal',
   },
   {
     name: 'Rostély',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Kényszermunka',
-    desc: '+9 fal, veszítesz 5 szörnyet',
+    desc: '+8 fal, veszítesz 5 szörnyet',
   },
   {
     name: 'Kőkert',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ametiszt',
-    desc: '+3 torony',
+    desc: '+2 torony',
   },
   {
     name: 'Varázsszövők',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Mágneskő',
-    desc: '+3 torony. Ezt a kártyát nem lehet eldobni',
+    desc: '+18 torony. Ezt a kártyát nem lehet eldobni',
   },
   {
     name: 'Napkitörés',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubin',
-    desc: '+5 torony',
+    desc: '+4 torony',
   },
   {
     name: 'Drágakőlándzsa',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Smaragd',
-    desc: '+8 torony',
+    desc: '+6 torony',
   },
   {
     name: 'Bölcsesség gyöngye',
-    desc: '+5 torony, +1 mágia',
+    desc: '+4 torony, +1 mágia',
   },
   {
     name: 'Zúzó',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Zafír',
-    desc: '+11 torony',
+    desc: '+8 torony',
   },
   {
     name: 'Viszály',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Gyémánt',
-    desc: '+15 torony',
+    desc: '+10 torony',
   },
   {
     name: 'Menedék',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Sárkányszem',
-    desc: '+20 torony',
+    desc: '+14 torony',
   },
   {
     name: 'Kristályosítás',
-    desc: '+11 torony, -6 fal',
+    desc: '+9 torony, -6 fal',
   },
   {
     name: 'Csecsebecsecsomag',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Szivárvány',
-    desc: '+1 torony minden játékosnak. Kapsz 3 drágakövet',
+    desc: '+2 torony minden játékosnak. Kapsz 4 drágakövet',
   },
   {
     name: 'Inas',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Kergemarhakór',
-    desc: 'Minden játékos veszít 6 szörnyet',
+    desc: 'Minden játékos veszít 8 szörnyet',
   },
   {
     name: 'Tündér',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Tünde felderítő',
-    desc: 'Húzz 1 kártyát. Dobj 1 kártyát. Újra te jössz',
+    desc: 'Húzz 2 kártyát. Dobj 2 kártyát',
   },
   {
     name: 'Koboldhorda',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ork',
-    desc: '5 sebzés',
+    desc: '4 sebzés',
   },
   {
     name: 'Törpék',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Hasító',
-    desc: '6 sebzés',
+    desc: '9 sebzés',
   },
   {
     name: 'Ogre',
-    desc: '7 sebzés',
+    desc: '8 sebzés',
   },
   {
     name: 'Veszett bárány',
-    desc: '6 sebzés. Az ellenség veszít 3 szörnyet',
+    desc: '6 sebzés. Az ellenség veszít 4 szörnyet',
   },
   {
     name: 'Ördögfióka',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Vérfarkas',
-    desc: '9 sebzés',
+    desc: '10 sebzés',
   },
   {
     name: 'Korróziós felhő',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Tolvaj',
-    desc: 'Az ellenség veszít 10 drágakövet, 5 téglát, a felét megkapod (felkerekítve)',
+    desc: 'Az ellenség veszít 8 drágakövet, 8 téglát, a felét megkapod (felkerekítve)',
   },
   {
     name: 'Kőóriás',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Sárkány',
-    desc: '20 sebzés. Az ellenség veszít 10 drágakövet, -1 ellenséges állatkert',
+    desc: '18 sebzés. Az ellenség veszít 10 drágakövet, -1 ellenséges mágia',
   },
   {
     name: 'Lándzsás',
-    desc: 'Ha fal > ellenséges fal, 3 sebzés, különben 2 sebzés',
+    desc: 'Ha fal > ellenséges fal, 4 sebzés, különben 2 sebzés',
   },
   {
     name: 'Gnóm',
-    desc: '3 sebzés, +1 drágakő',
+    desc: '3 sebzés, +2 drágakő',
   },
   {
     name: 'Vérengző',

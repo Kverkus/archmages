@@ -19,11 +19,10 @@ const cards: DataCardsType = [
   {
     // 1
     // name: 'Lucky Cache',
-    // desc: '+2 Bricks. +2 Gems. Play again',
+    // desc: '+2 Bricks. +2 Gems.',
     type: 0,
     cost: 0,
-    prob: 1,
-    special: { playagain: true },
+    prob: 3,
     effect: (p, o) => {
       change(p, 'bricks', 2)
       change(p, 'gems', 2)
@@ -35,7 +34,7 @@ const cards: DataCardsType = [
     // desc: '+1 Wall. Play again',
     type: 0,
     cost: 1,
-    prob: 2,
+    prob: 3,
     special: { playagain: true },
     effect: (p, o) => {
       change(p, 'wall', 1)
@@ -46,8 +45,8 @@ const cards: DataCardsType = [
     // name: 'Miners',
     // desc: '+1 Quarry',
     type: 0,
-    cost: 3,
-    prob: 3,
+    cost: 6,
+    prob: 2,
     effect: (p, o) => {
       change(p, 'brickProd', 1)
     },
@@ -57,8 +56,8 @@ const cards: DataCardsType = [
     // name: 'Mother Lode',
     // desc: 'If quarry < enemy quarry, +2 quarry. Else, +1 quarry',
     type: 0,
-    cost: 4,
-    prob: 3,
+    cost: 8,
+    prob: 2,
     effect: (p, o) => {
       if (p.brickProd < o.brickProd) {
         change(p, 'brickProd', 2)
@@ -72,7 +71,7 @@ const cards: DataCardsType = [
     // name: 'Dwarven Miners',
     // desc: '+4 Wall, +1 quarry',
     type: 0,
-    cost: 7,
+    cost: 9,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 4)
@@ -96,7 +95,7 @@ const cards: DataCardsType = [
     // name: 'Copping the Tech',
     // desc: 'If quarry < enemy quarry, quarry = enemy quarry',
     type: 0,
-    cost: 5,
+    cost: 6,
     prob: 2,
     effect: (p, o) => {
       if (p.brickProd < o.brickProd) {
@@ -121,7 +120,7 @@ const cards: DataCardsType = [
     // desc: '+4 Wall',
     type: 0,
     cost: 3,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'wall', 4)
     },
@@ -131,8 +130,8 @@ const cards: DataCardsType = [
     // name: 'Innovations',
     // desc: "+1 To all player's quarrys, you gain 4 gems",
     type: 0,
-    cost: 2,
-    prob: 3,
+    cost: 3,
+    prob: 2,
     effect: (p, o) => {
       change(p, 'brickProd', 1)
       change(o, 'brickProd', 1)
@@ -155,8 +154,8 @@ const cards: DataCardsType = [
     // name: 'Tremors',
     // desc: 'All walls take 5 damage. Play again',
     type: 0,
-    cost: 7,
-    prob: 2,
+    cost: 5,
+    prob: 3,
     special: { playagain: true },
     effect: (p, o) => {
       change(p, 'wall', -5)
@@ -169,7 +168,7 @@ const cards: DataCardsType = [
     // desc: '+1 Magic. Play again',
     type: 0,
     cost: 8,
-    prob: 1,
+    prob: 2,
     special: { playagain: true },
     effect: (p, o) => {
       change(p, 'gemProd', 1)
@@ -181,7 +180,7 @@ const cards: DataCardsType = [
     // desc: "-1 To all player's quarrys",
     type: 0,
     cost: 0,
-    prob: 3,
+    prob: 2,
     effect: (p, o) => {
       change(p, 'brickProd', -1)
       change(o, 'brickProd', -1)
@@ -203,7 +202,7 @@ const cards: DataCardsType = [
     // name: 'Collapse!',
     // desc: '-1 Enemy quarry',
     type: 0,
-    cost: 4,
+    cost: 6,
     prob: 2,
     effect: (p, o) => {
       change(o, 'brickProd', -1)
@@ -214,7 +213,7 @@ const cards: DataCardsType = [
     // name: 'New Equipment',
     // desc: '+2 Quarry',
     type: 0,
-    cost: 6,
+    cost: 12,
     prob: 2,
     effect: (p, o) => {
       change(p, 'brickProd', 2)
@@ -226,7 +225,7 @@ const cards: DataCardsType = [
     // desc: '-1 Quarry. +10 Wall. You gain 5 gems',
     type: 0,
     cost: 0,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'brickProd', -1)
       change(p, 'wall', 10)
@@ -236,12 +235,12 @@ const cards: DataCardsType = [
   {
     // 19
     // name: 'Reinforced Wall',
-    // desc: '+8 Wall',
+    // desc: '+9 Wall',
     type: 0,
-    cost: 8,
+    cost: 7,
     prob: 3,
     effect: (p, o) => {
-      change(p, 'wall', 8)
+      change(p, 'wall', 9)
     },
   },
   {
@@ -249,7 +248,7 @@ const cards: DataCardsType = [
     // name: 'Porticulus',
     // desc: '+5 Wall, +1 dungeon',
     type: 0,
-    cost: 9,
+    cost: 10,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 5)
@@ -262,7 +261,7 @@ const cards: DataCardsType = [
     // desc: '+7 Wall, gain 7 gems',
     type: 0,
     cost: 9,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'wall', 7)
       change(p, 'gems', 7)
@@ -273,8 +272,8 @@ const cards: DataCardsType = [
     // name: 'Harmonic Ore',
     // desc: '+6 Wall, +3 tower',
     type: 0,
-    cost: 11,
-    prob: 2,
+    cost: 8,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'wall', 6)
       change(p, 'tower', 3)
@@ -285,8 +284,8 @@ const cards: DataCardsType = [
     // name: 'Mondo Wall',
     // desc: '+12 Wall',
     type: 0,
-    cost: 13,
-    prob: 2,
+    cost: 9,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'wall', 12)
     },
@@ -296,7 +295,7 @@ const cards: DataCardsType = [
     // name: 'Focused Designs',
     // desc: '+8 Wall, +5 tower',
     type: 0,
-    cost: 15,
+    cost: 11,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 8)
@@ -308,7 +307,7 @@ const cards: DataCardsType = [
     // name: 'Great Wall',
     // desc: '+15 Wall',
     type: 0,
-    cost: 16,
+    cost: 12,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 15)
@@ -319,7 +318,7 @@ const cards: DataCardsType = [
     // name: 'Rock Launcher',
     // desc: '+6 Wall. 10 Damage to enemy',
     type: 0,
-    cost: 18,
+    cost: 13,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 6)
@@ -331,7 +330,7 @@ const cards: DataCardsType = [
     // name: "Dragon's Heart",
     // desc: '+20 Wall. +8 Tower',
     type: 0,
-    cost: 24,
+    cost: 20,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 20)
@@ -341,12 +340,12 @@ const cards: DataCardsType = [
   {
     // 28
     // name: 'Forced Labor',
-    // desc: '+9 Wall, lose 5 recruits',
+    // desc: '+8 Wall, lose 5 recruits',
     type: 0,
-    cost: 7,
-    prob: 2,
+    cost: 5,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'wall', 9)
+      change(p, 'wall', 8)
       change(p, 'recruits', -5)
     },
   },
@@ -356,7 +355,7 @@ const cards: DataCardsType = [
     // desc: '+1 Wall. +1 Tower. +2 Recruits',
     type: 0,
     cost: 1,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'wall', 1)
       change(p, 'tower', 1)
@@ -369,7 +368,7 @@ const cards: DataCardsType = [
     // desc: 'Player(s) with lowest wall are -1 Dungeon and 2 damage to tower',
     type: 0,
     cost: 6,
-    prob: 3,
+    prob: 2,
     effect: (p, o) => {
       if (o.wall < p.wall) {
         change(o, 'recruitProd', -1)
@@ -405,7 +404,7 @@ const cards: DataCardsType = [
     // name: 'Battlements',
     // desc: '+7 Wall, 6 damage to enemy',
     type: 0,
-    cost: 14,
+    cost: 11,
     prob: 2,
     effect: (p, o) => {
       change(p, 'wall', 7)
@@ -417,7 +416,7 @@ const cards: DataCardsType = [
     // name: 'Shift',
     // desc: 'Switch your wall with enemy wall',
     type: 0,
-    cost: 17,
+    cost: 19,
     prob: 2,
     effect: (p, o) => {
       const pWallOriginal = p.wall
@@ -431,7 +430,7 @@ const cards: DataCardsType = [
     // desc: '+1 Tower. Play again',
     type: 1,
     cost: 1,
-    prob: 2,
+    prob: 3,
     special: { playagain: true },
     effect: (p, o) => {
       change(p, 'tower', 1)
@@ -443,7 +442,7 @@ const cards: DataCardsType = [
     // desc: '1 Damage to enemy tower. Play again',
     type: 1,
     cost: 2,
-    prob: 2,
+    prob: 3,
     special: { playagain: true },
     effect: (p, o) => {
       change(o, 'tower', -1)
@@ -452,12 +451,12 @@ const cards: DataCardsType = [
   {
     // 36
     // name: 'Amethyst',
-    // desc: '+3 Tower',
+    // desc: '+2 Tower',
     type: 1,
     cost: 2,
     prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 3)
+      change(p, 'tower', 2)
     },
   },
   {
@@ -465,7 +464,7 @@ const cards: DataCardsType = [
     // name: 'Spell Weavers',
     // desc: '+1 Magic',
     type: 1,
-    cost: 3,
+    cost: 6,
     prob: 2,
     effect: (p, o) => {
       change(p, 'gemProd', 1)
@@ -476,21 +475,21 @@ const cards: DataCardsType = [
     // name: 'Prism',
     // desc: 'Draw 1 card. Discard 1 card. Play again',
     type: 1,
-    cost: 2,
-    prob: 1,
+    cost: 3,
+    prob: 3,
     special: { drawDiscardPlayagain: true },
     effect: (p, o) => {},
   },
   {
     // 39
     // name: 'Lodestone',
-    // desc: "+3 Tower. This card can't be discarded without playing it",
+    // desc: "+18 Tower. This card can't be discarded without playing it",
     type: 1,
-    cost: 5,
+    cost: 15,
     prob: 2,
     special: { undiscardable: true },
     effect: (p, o) => {
-      change(p, 'tower', 3)
+      change(p, 'tower', 18)
     },
   },
   {
@@ -510,7 +509,7 @@ const cards: DataCardsType = [
     // name: 'Crystal Matrix',
     // desc: '+1 Magic. +3 Tower. +1 Enemy tower',
     type: 1,
-    cost: 6,
+    cost: 8,
     prob: 2,
     effect: (p, o) => {
       change(p, 'gemProd', 1)
@@ -523,7 +522,7 @@ const cards: DataCardsType = [
     // name: 'Gemstone Flaw',
     // desc: '3 Damage to enemy tower',
     type: 1,
-    cost: 2,
+    cost: 3,
     prob: 3,
     effect: (p, o) => {
       change(o, 'tower', -3)
@@ -532,12 +531,12 @@ const cards: DataCardsType = [
   {
     // 43
     // name: 'Ruby',
-    // desc: '+5 Tower',
+    // desc: '+4 Tower',
     type: 1,
-    cost: 3,
+    cost: 4,
     prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 5)
+      change(p, 'tower', 4)
     },
   },
   {
@@ -545,7 +544,7 @@ const cards: DataCardsType = [
     // name: 'Gem Spear',
     // desc: '5 Damage to enemy tower',
     type: 1,
-    cost: 4,
+    cost: 5,
     prob: 3,
     effect: (p, o) => {
       change(o, 'tower', -5)
@@ -556,7 +555,7 @@ const cards: DataCardsType = [
     // name: 'Power Burn',
     // desc: '5 Damage to your tower. +2 Magic',
     type: 1,
-    cost: 3,
+    cost: 7,
     prob: 2,
     effect: (p, o) => {
       change(p, 'tower', -5)
@@ -568,7 +567,7 @@ const cards: DataCardsType = [
     // name: 'Harmonic Vibe',
     // desc: '+1 Magic. +3 Tower. +3 Wall',
     type: 1,
-    cost: 7,
+    cost: 10,
     prob: 2,
     effect: (p, o) => {
       change(p, 'gemProd', 1)
@@ -581,7 +580,7 @@ const cards: DataCardsType = [
     // name: 'Parity',
     // desc: "All player's magic equals the highest player's magic",
     type: 1,
-    cost: 7,
+    cost: 8,
     prob: 2,
     effect: (p, o) => {
       const max = Math.max(o.gemProd, p.gemProd)
@@ -592,23 +591,23 @@ const cards: DataCardsType = [
   {
     // 48
     // name: 'Emerald',
-    // desc: '+8 Tower',
+    // desc: '+6 Tower',
     type: 1,
     cost: 6,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 8)
+      change(p, 'tower', 6)
     },
   },
   {
     // 49
     // name: 'Pearl of Wisdom',
-    // desc: '+5 Tower. +1 Magic',
+    // desc: '+4 Tower. +1 Magic',
     type: 1,
     cost: 9,
     prob: 2,
     effect: (p, o) => {
-      change(p, 'tower', 5)
+      change(p, 'tower', 4)
       change(p, 'gemProd', 1)
     },
   },
@@ -617,7 +616,7 @@ const cards: DataCardsType = [
     // name: 'Shatterer',
     // desc: '-1 Magic. 9 Damage to enemy tower',
     type: 1,
-    cost: 8,
+    cost: 7,
     prob: 3,
     effect: (p, o) => {
       change(p, 'gemProd', -1)
@@ -629,8 +628,8 @@ const cards: DataCardsType = [
     // name: 'Crumblestone',
     // desc: '+5 Tower. Enemy loses 6 bricks',
     type: 1,
-    cost: 7,
-    prob: 2,
+    cost: 6,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'tower', 5)
       change(o, 'bricks', -6)
@@ -639,12 +638,12 @@ const cards: DataCardsType = [
   {
     // 52
     // name: 'Sapphire',
-    // desc: '+11 Tower',
+    // desc: '+8 Tower',
     type: 1,
-    cost: 10,
-    prob: 2,
+    cost: 7,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 11)
+      change(p, 'tower', 8)
     },
   },
   {
@@ -666,7 +665,7 @@ const cards: DataCardsType = [
     // name: 'Fire Ruby',
     // desc: '+6 Tower. 4 Damage to enemy tower',
     type: 1,
-    cost: 13,
+    cost: 10,
     prob: 2,
     effect: (p, o) => {
       change(p, 'tower', 6)
@@ -679,7 +678,7 @@ const cards: DataCardsType = [
     // desc: '+7 Tower. Lose 10 bricks',
     type: 1,
     cost: 4,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'tower', 7)
       change(p, 'bricks', -10)
@@ -690,8 +689,8 @@ const cards: DataCardsType = [
     // name: 'Crystal Shield',
     // desc: '+8 Tower. +3 Wall',
     type: 1,
-    cost: 12,
-    prob: 2,
+    cost: 9,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'tower', 8)
       change(p, 'wall', 3)
@@ -702,7 +701,7 @@ const cards: DataCardsType = [
     // name: 'Empathy Gem',
     // desc: '+8 Tower. +1 Dungeon',
     type: 1,
-    cost: 14,
+    cost: 12,
     prob: 2,
     effect: (p, o) => {
       change(p, 'tower', 8)
@@ -712,12 +711,12 @@ const cards: DataCardsType = [
   {
     // 58
     // name: 'Diamond',
-    // desc: '+15 Tower',
+    // desc: '+10 Tower',
     type: 1,
-    cost: 16,
-    prob: 2,
+    cost: 9,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 15)
+      change(p, 'tower', 10)
     },
   },
   {
@@ -725,7 +724,7 @@ const cards: DataCardsType = [
     // name: 'Sanctuary',
     // desc: '+10 Tower. +5 Wall, gain 5 recruits',
     type: 1,
-    cost: 15,
+    cost: 14,
     prob: 2,
     effect: (p, o) => {
       change(p, 'tower', 10)
@@ -738,7 +737,7 @@ const cards: DataCardsType = [
     // name: 'Lava Jewel',
     // desc: '+12 Tower. 6 Damage to enemy',
     type: 1,
-    cost: 17,
+    cost: 16,
     prob: 2,
     effect: (p, o) => {
       change(p, 'tower', 12)
@@ -748,23 +747,23 @@ const cards: DataCardsType = [
   {
     // 61
     // name: "Dragon's Eye",
-    // desc: '+20 Tower',
+    // desc: '+14 Tower',
     type: 1,
-    cost: 21,
+    cost: 13,
     prob: 2,
     effect: (p, o) => {
-      change(p, 'tower', 20)
+      change(p, 'tower', 14)
     },
   },
   {
     // 62
     // name: 'Crystallize',
-    // desc: '+11 Tower. -6 Wall',
+    // desc: '+9 Tower. -6 Wall',
     type: 1,
-    cost: 8,
-    prob: 2,
+    cost: 6,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 11)
+      change(p, 'tower', 9)
       change(p, 'wall', -6)
     },
   },
@@ -774,7 +773,7 @@ const cards: DataCardsType = [
     // desc: 'If tower < enemy tower, +2 tower. Else +1 tower',
     type: 1,
     cost: 0,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       if (p.tower < o.tower) {
         change(p, 'tower', 2)
@@ -786,14 +785,14 @@ const cards: DataCardsType = [
   {
     // 64
     // name: 'Rainbow',
-    // desc: '+1 Tower to all players. You gain 3 gems',
+    // desc: '+2 Tower to all players. You gain 4 gems',
     type: 1,
     cost: 0,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'tower', 1)
-      change(o, 'tower', 1)
-      change(p, 'gems', 3)
+      change(p, 'tower', 2)
+      change(o, 'tower', 2)
+      change(p, 'gems', 4)
     },
   },
   {
@@ -814,8 +813,8 @@ const cards: DataCardsType = [
     // name: 'Lightning Shard',
     // desc: 'If Tower > enemy wall, 8 damage to enemy tower. Else 8 damage',
     type: 1,
-    cost: 11,
-    prob: 2,
+    cost: 8,
+    prob: 3,
     effect: (p, o) => {
       if (p.tower > o.wall) {
         change(o, 'tower', -8)
@@ -840,13 +839,13 @@ const cards: DataCardsType = [
   {
     // 68
     // name: 'Mad Cow Disease',
-    // desc: 'All players lose 6 recruits',
+    // desc: 'All players lose 8 recruits',
     type: 2,
     cost: 0,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
-      change(p, 'recruits', -6)
-      change(o, 'recruits', -6)
+      change(p, 'recruits', -8)
+      change(o, 'recruits', -8)
     },
   },
   {
@@ -854,8 +853,8 @@ const cards: DataCardsType = [
     // name: 'Faerie',
     // desc: '2 Damage. Play again',
     type: 2,
-    cost: 1,
-    prob: 1,
+    cost: 2,
+    prob: 3,
     special: { playagain: true },
     effect: (p, o) => {
       damage(o, 2)
@@ -878,7 +877,7 @@ const cards: DataCardsType = [
     // name: 'Minotaur',
     // desc: '+1 Dungeon',
     type: 2,
-    cost: 3,
+    cost: 6,
     prob: 2,
     effect: (p, o) => {
       change(p, 'recruitProd', 1)
@@ -887,11 +886,11 @@ const cards: DataCardsType = [
   {
     // 72
     // name: 'Elven Scout',
-    // desc: 'Draw 1 card. Discard 1 card. Play again',
+    // desc: 'Draw 2 cards. Discard 2 cards',
     type: 2,
-    cost: 2,
-    prob: 1,
-    special: { drawDiscardPlayagain: true },
+    cost: 4,
+    prob: 3,
+    special: { drawDiscard: { draw: 2, discard: 2 } },
     effect: (p, o) => {},
   },
   {
@@ -899,7 +898,7 @@ const cards: DataCardsType = [
     // name: 'Goblin Mob',
     // desc: '6 Damage. You take 3 damage',
     type: 2,
-    cost: 3,
+    cost: 2,
     prob: 3,
     effect: (p, o) => {
       damage(o, 6)
@@ -911,8 +910,8 @@ const cards: DataCardsType = [
     // name: 'Goblin Archers',
     // desc: '3 Damage to enemy tower. You take 1 damage',
     type: 2,
-    cost: 4,
-    prob: 2,
+    cost: 3,
+    prob: 3,
     effect: (p, o) => {
       change(o, 'tower', -3)
       damage(p, 1)
@@ -923,8 +922,8 @@ const cards: DataCardsType = [
     // name: 'Shadow Faerie',
     // desc: '2 Damage to enemy tower. Play again',
     type: 2,
-    cost: 6,
-    prob: 2,
+    cost: 4,
+    prob: 3,
     special: { playagain: true },
     effect: (p, o) => {
       change(o, 'tower', -2)
@@ -933,12 +932,12 @@ const cards: DataCardsType = [
   {
     // 76
     // name: 'Orc',
-    // desc: '5 Damage',
+    // desc: '4 Damage',
     type: 2,
     cost: 3,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 5)
+      damage(o, 4)
     },
   },
   {
@@ -958,7 +957,7 @@ const cards: DataCardsType = [
     // name: 'Little Snakes',
     // desc: '4 Damage to enemy tower',
     type: 2,
-    cost: 6,
+    cost: 4,
     prob: 3,
     effect: (p, o) => {
       change(o, 'tower', -4)
@@ -969,8 +968,8 @@ const cards: DataCardsType = [
     // name: 'Troll Trainer',
     // desc: '+2 Dungeon',
     type: 2,
-    cost: 7,
-    prob: 3,
+    cost: 12,
+    prob: 2,
     effect: (p, o) => {
       change(p, 'recruitProd', 2)
     },
@@ -980,8 +979,8 @@ const cards: DataCardsType = [
     // name: 'Tower Gremlin',
     // desc: '2 Damage. +4 Tower. +2 Wall',
     type: 2,
-    cost: 8,
-    prob: 2,
+    cost: 7,
+    prob: 3,
     effect: (p, o) => {
       damage(o, 2)
       change(p, 'tower', 4)
@@ -1004,35 +1003,35 @@ const cards: DataCardsType = [
   {
     // 82
     // name: 'Slasher',
-    // desc: '6 Damage',
+    // desc: '9 Damage',
     type: 2,
-    cost: 5,
+    cost: 7,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 6)
+      damage(o, 9)
     },
   },
   {
     // 83
     // name: 'Ogre',
-    // desc: '7 Damage',
+    // desc: '8 Damage',
     type: 2,
     cost: 6,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 7)
+      damage(o, 8)
     },
   },
   {
     // 84
     // name: 'Rabid Sheep',
-    // desc: '6 Damage. Enemy loses 3 recruits',
+    // desc: '6 Damage. Enemy loses 4 recruits',
     type: 2,
     cost: 6,
     prob: 3,
     effect: (p, o) => {
       damage(o, 6)
-      change(o, 'recruits', -3)
+      change(o, 'recruits', -4)
     },
   },
   {
@@ -1057,8 +1056,8 @@ const cards: DataCardsType = [
     // name: 'Spizzer',
     // desc: 'If enemy wall = 0, 10 damage, else 6 damage',
     type: 2,
-    cost: 8,
-    prob: 2,
+    cost: 7,
+    prob: 3,
     effect: (p, o) => {
       if (o.wall === 0) {
         damage(o, 10)
@@ -1070,12 +1069,12 @@ const cards: DataCardsType = [
   {
     // 87
     // name: 'Werewolf',
-    // desc: '9 Damage',
+    // desc: '10 Damage',
     type: 2,
-    cost: 9,
-    prob: 2,
+    cost: 8,
+    prob: 3,
     effect: (p, o) => {
-      damage(o, 9)
+      damage(o, 10)
     },
   },
   {
@@ -1083,8 +1082,8 @@ const cards: DataCardsType = [
     // name: 'Corrosion Cloud',
     // desc: 'If enemy wall > 0, 10 damage, else 7 damage',
     type: 2,
-    cost: 11,
-    prob: 2,
+    cost: 8,
+    prob: 3,
     effect: (p, o) => {
       if (o.wall > 0) {
         damage(o, 10)
@@ -1098,8 +1097,8 @@ const cards: DataCardsType = [
     // name: 'Unicorn',
     // desc: 'If magic > enemy magic, 12 damage, else 8 damage',
     type: 2,
-    cost: 9,
-    prob: 2,
+    cost: 8,
+    prob: 3,
     effect: (p, o) => {
       if (p.gemProd > o.gemProd) {
         damage(o, 12)
@@ -1113,8 +1112,8 @@ const cards: DataCardsType = [
     // name: 'Elven Archers',
     // desc: 'If wall > enemy wall, 6 damage to enemy tower, else 6 damage',
     type: 2,
-    cost: 10,
-    prob: 2,
+    cost: 6,
+    prob: 3,
     effect: (p, o) => {
       if (p.wall > o.wall) {
         change(o, 'tower', -6)
@@ -1128,8 +1127,8 @@ const cards: DataCardsType = [
     // name: 'Succubus',
     // desc: '5 Damage to enemy tower, enemy loses 8 recruits',
     type: 2,
-    cost: 14,
-    prob: 2,
+    cost: 9,
+    prob: 3,
     effect: (p, o) => {
       change(o, 'tower', -5)
       change(o, 'recruits', -8)
@@ -1140,7 +1139,7 @@ const cards: DataCardsType = [
     // name: 'Rock Stompers',
     // desc: '8 Damage, -1 enemy quarry',
     type: 2,
-    cost: 11,
+    cost: 13,
     prob: 2,
     effect: (p, o) => {
       damage(o, 8)
@@ -1150,15 +1149,15 @@ const cards: DataCardsType = [
   {
     // 93
     // name: 'Thief',
-    // desc: 'Enemy loses 10 gems, 5 bricks, you gain 1/2 amt. round up',
+    // desc: 'Enemy loses 8 gems, 8 bricks, you gain 1/2 amt. round up',
     type: 2,
-    cost: 12,
+    cost: 10,
     prob: 2,
     effect: (p, o) => {
-      change(p, 'gems', Math.ceil((o.gems >= 10 ? 10 : o.gems) / 2))
-      change(p, 'bricks', Math.ceil((o.bricks >= 5 ? 5 : o.bricks) / 2))
-      change(o, 'gems', -10)
-      change(o, 'bricks', -5)
+      change(p, 'gems', Math.ceil((o.gems >= 8 ? 8 : o.gems) / 2))
+      change(p, 'bricks', Math.ceil((o.bricks >= 8 ? 8 : o.bricks) / 2))
+      change(o, 'gems', -8)
+      change(o, 'bricks', -8)
     },
   },
   {
@@ -1166,7 +1165,7 @@ const cards: DataCardsType = [
     // name: 'Stone Giant',
     // desc: '10 Damage. +4 Wall',
     type: 2,
-    cost: 15,
+    cost: 11,
     prob: 2,
     effect: (p, o) => {
       damage(o, 10)
@@ -1178,7 +1177,7 @@ const cards: DataCardsType = [
     // name: 'Vampire',
     // desc: '10 Damage. Enemy loses 5 recruits, -1 enemy dungeon',
     type: 2,
-    cost: 17,
+    cost: 14,
     prob: 2,
     effect: (p, o) => {
       damage(o, 10)
@@ -1189,26 +1188,26 @@ const cards: DataCardsType = [
   {
     // 96
     // name: 'Dragon',
-    // desc: '20 Damage. Enemy loses 10 gems, -1 enemy dungeon',
+    // desc: '18 Damage. Enemy loses 10 gems, -1 enemy magic',
     type: 2,
-    cost: 25,
+    cost: 21,
     prob: 2,
     effect: (p, o) => {
-      damage(o, 20)
+      damage(o, 18)
       change(o, 'gems', -10)
-      change(o, 'recruitProd', -1)
+      change(o, 'gemProd', -1)
     },
   },
   {
     // 97
     // name: 'Spearman',
-    // desc: 'If wall > enemy wall do 3 damage else do 2 damage',
+    // desc: 'If wall > enemy wall do 4 damage else do 2 damage',
     type: 2,
     cost: 2,
     prob: 3,
     effect: (p, o) => {
       if (p.wall > o.wall) {
-        damage(o, 3)
+        damage(o, 4)
       } else {
         damage(o, 2)
       }
@@ -1217,13 +1216,13 @@ const cards: DataCardsType = [
   {
     // 98
     // name: 'Gnome',
-    // desc: '3 Damage. +1 Gem',
+    // desc: '3 Damage. +2 Gems',
     type: 2,
-    cost: 2,
+    cost: 3,
     prob: 3,
     effect: (p, o) => {
       damage(o, 3)
-      change(p, 'gems', 1)
+      change(p, 'gems', 2)
     },
   },
   {
@@ -1243,7 +1242,7 @@ const cards: DataCardsType = [
     // name: 'Warlord',
     // desc: '13 Damage. You lose 3 gems',
     type: 2,
-    cost: 13,
+    cost: 10,
     prob: 2,
     effect: (p, o) => {
       damage(o, 13)
@@ -1255,7 +1254,7 @@ const cards: DataCardsType = [
     // name: 'Pegasus Lancer',
     // desc: '12 Damage to enemy tower',
     type: 2,
-    cost: 18,
+    cost: 14,
     prob: 2,
     effect: (p, o) => {
       change(o, 'tower', -12)

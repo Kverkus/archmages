@@ -1,0 +1,7 @@
+.modebutton {
+  left: calc(60% - 3rem);
+
+  &:active {
+    transform: translate(1px, 1px);
+  }
+}

@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Tesouro da Sorte',
-    desc: '+2 Tijolos. +2 Gemas. Jogue novamente',
+    desc: '+2 Tijolos. +2 Gemas.',
   },
   {
     name: 'Território Amigo',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Muralha Reforçada',
-    desc: '+8 Muralha',
+    desc: '+9 Muralha',
   },
   {
     name: 'Portão',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Trabalho Forçado',
-    desc: '+9 Muralha, perca 5 recrutas',
+    desc: '+8 Muralha, perca 5 recrutas',
   },
   {
     name: 'Jardim de Rochas',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ametista',
-    desc: '+3 Torre',
+    desc: '+2 Torre',
   },
   {
     name: 'Feiticeiros',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnetita',
-    desc: '+3 Torre. Essa carta não pode ser descartada sem jogá-la',
+    desc: '+18 Torre. Essa carta não pode ser descartada sem jogá-la',
   },
   {
     name: 'Explosão Solar',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubi',
-    desc: '+5 Torre',
+    desc: '+4 Torre',
   },
   {
     name: 'Lança de gema',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Esmeralda',
-    desc: '+8 Torre',
+    desc: '+6 Torre',
   },
   {
     name: 'Pérola da Sabedoria',
-    desc: '+5 Torre. +1 Magia',
+    desc: '+4 Torre. +1 Magia',
   },
   {
     name: 'Estilhaçador',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Safira',
-    desc: '+11 Torre',
+    desc: '+8 Torre',
   },
   {
     name: 'Discórdia',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamante',
-    desc: '+15 Torre',
+    desc: '+10 Torre',
   },
   {
     name: 'Santuário',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Olho de Dragão',
-    desc: '+20 Torre',
+    desc: '+14 Torre',
   },
   {
     name: 'Cristalizar',
-    desc: '+11 Torre. -6 Muralha',
+    desc: '+9 Torre. -6 Muralha',
   },
   {
     name: 'Bolsa de Bolas de Gude',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arco-íris',
-    desc: '+1 Torre para todos os jogadores. Você ganha 3 gemas',
+    desc: '+2 Torre para todos os jogadores. Você ganha 4 gemas',
   },
   {
     name: 'Aprendiz',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Doença da Vaca Louca',
-    desc: 'Todos os jogadores perdem 6 recrutas',
+    desc: 'Todos os jogadores perdem 8 recrutas',
   },
   {
     name: 'Faerie',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Elfo Explorador',
-    desc: 'Compre 1 carta. Descarte 1 carta. Jogue novamente',
+    desc: 'Compre 2 cartas. Descarte 2 cartas',
   },
   {
     name: 'Gangue Goblin',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '5 Dano',
+    desc: '4 Dano',
   },
   {
     name: 'Anões',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Assassino',
-    desc: '6 Dano',
+    desc: '9 Dano',
   },
   {
     name: 'Ogro',
-    desc: '7 Dano',
+    desc: '8 Dano',
   },
   {
     name: 'Ovelha Raivosa',
-    desc: '6 Dano. Inimigo perde 3 recrutas',
+    desc: '6 Dano. Inimigo perde 4 recrutas',
   },
   {
     name: 'Diabinho',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lobisomem',
-    desc: '9 Dano',
+    desc: '10 Dano',
   },
   {
     name: 'Nuvem de Corrosão',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ladrão',
-    desc: 'Inimigo perde 10 gemas, 5 tijolos, você ganha 1/2 qtd. arredondada para cima',
+    desc: 'Inimigo perde 8 gemas, 8 tijolos, você ganha 1/2 qtd. arredondada para cima',
   },
   {
     name: 'Gigante de Pedra',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragão',
-    desc: '20 Dano. Inimigo perde 10 gemas, -1 masmorra inimiga',
+    desc: '18 Dano. Inimigo perde 10 gemas, -1 magia inimiga',
   },
   {
     name: 'Lanceiro',
-    desc: 'Se muralha > muralha inimiga dê 3 dano, senão dê 2 dano',
+    desc: 'Se muralha > muralha inimiga dê 4 dano, senão dê 2 dano',
   },
   {
     name: 'Gnomo',
-    desc: '3 Dano. +1 Gema',
+    desc: '3 Dano. +2 Gema',
   },
   {
     name: 'Berserker',

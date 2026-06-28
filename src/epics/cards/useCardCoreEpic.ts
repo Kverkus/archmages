@@ -12,12 +12,25 @@ import {
   MOVE_CARD_TO_TOP,
   DRAW_CARD,
   NEXT_ROUND,
+  AI_PLAY_CARD,
   ABORT_ALL,
 } from '@/constants/ActionTypes'
-import { cardNextStepDelay, cardTransitionDuration } from '@/constants/visuals'
+import {
+  aiExtraDelay,
+  noAiExtraDelay,
+  shouldUseAi,
+} from '@/constants/devSettings'
+import {
+  aiDelay,
+  cardNextStepDelay,
+  cardTransitionDuration,
+  drawCardPre,
+} from '@/constants/visuals'
 import cards from '@/data/cards'
+import { recordCardLeavingHand } from '@/draft/store'
 import { RootActionType } from '@/types/actionObj'
 import { RootStateType } from '@/types/state'
+import { startDrawDiscardMode } from '@/utils/drawDiscardMode'
 import getPan from '@/utils/sound/getPan'
 import { play } from '@/utils/sound/Sound'
 
@@ -31,6 +44,31 @@ export default (
     mergeMap(([action, state]) => {
       const { n, index, position, owner } = action
       const special = cards[n].special
+      const drawDiscard = special?.drawDiscard
+        ? {
+            draw: special.drawDiscard.draw,
+            discard: special.drawDiscard.discard,
+            drawAfterDiscard: special.drawDiscard.drawAfterDiscard ?? false,
+            playagain: special.drawDiscard.playagain ?? false,
+          }
+        : special?.drawDiscardPlayagain
+          ? {
+              draw: 1,
+              discard: 1,
+              drawAfterDiscard: true,
+              playagain: true,
+            }
+          : null
+      if (drawDiscard) {
+        startDrawDiscardMode({
+          remaining: drawDiscard.discard,
+          drawAfterDiscard: drawDiscard.drawAfterDiscard,
+          playagain: drawDiscard.playagain,
+        })
+      }
+      const drawCardStepDelay =
+        drawCardPre + cardTransitionDuration + cardNextStepDelay
+      recordCardLeavingHand(owner, n)
       play(
         'deal',
         null,
@@ -61,15 +99,17 @@ export default (
           type: SWITCH_LOCK,
           on: true,
         }),
-        special?.drawDiscardPlayagain
+        drawDiscard
           ? concat(
               of<RootActionType>({
                 type: SWITCH_DISCARD_MODE,
                 on: true,
               }),
-              of<RootActionType>({
-                type: DRAW_CARD,
-              }).pipe(delay(0)),
+              ...Array.from({ length: drawDiscard.draw }, (_item, i) =>
+                of<RootActionType>({
+                  type: DRAW_CARD,
+                }).pipe(delay(i === 0 ? 0 : drawCardStepDelay)),
+              ),
               of<RootActionType>({
                 type: MOVE_CARD_TO_TOP,
                 index,
@@ -78,6 +118,19 @@ export default (
                 type: SWITCH_LOCK,
                 on: false,
               }),
+              owner === 'opponent' &&
+                shouldUseAi &&
+                state.multiplayer.gameNumber === -1
+                ? of<RootActionType>({
+                    type: AI_PLAY_CARD,
+                  }).pipe(
+                    delay(
+                      cardTransitionDuration +
+                        aiDelay +
+                        (noAiExtraDelay ? 0 : aiExtraDelay),
+                    ),
+                  )
+                : EMPTY,
             )
           : concat(
               of<RootActionType>({

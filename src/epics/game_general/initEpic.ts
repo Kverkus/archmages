@@ -3,6 +3,7 @@ import { concat, EMPTY, Observable, of } from 'rxjs'
 import { withLatestFrom, mergeMap } from 'rxjs/operators'
 import { INIT, INIT_CORE, SEND, INIT_TO_QUEUE } from '@/constants/ActionTypes'
 import { INST } from '@/constants/connDataKind'
+import { drawCardForOwner } from '@/draft/store'
 import { RootActionType } from '@/types/actionObj'
 import { CardListItemAllType, RootStateType } from '@/types/state'
 import { reverseCardList } from '@/utils/multiplayer/reverseState'
@@ -32,14 +33,15 @@ export default (
       const cardList: CardListItemAllType[] = []
       const total = state.settings.cardsInHand
       for (let i = 0, l = total * 2; i < l; i++) {
+        const owner = i < total ? 'player' : 'opponent'
         const card: CardListItemAllType = {
           position: i % total,
-          n: randomWithProbs(),
+          n: gameNumber === -1 ? drawCardForOwner(owner) : randomWithProbs(),
           unusable: false,
           discarded: false,
           isFlipped: false,
           zeroOpacity: false,
-          owner: i < total ? 'player' : 'opponent',
+          owner,
         }
         cardList.push(card)
       }

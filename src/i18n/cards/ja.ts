@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ラッキーキャッシュ',
-    desc: '+2レンガ。+2宝石。再びプレー',
+    desc: '+2レンガ。+2宝石。',
   },
   {
     name: 'フレンドリーな地形',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '補強壁',
-    desc: '+8壁',
+    desc: '+9壁',
   },
   {
     name: 'ポルティキュラス',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '強制労働',
-    desc: '+9壁、怪獣5体を失う',
+    desc: '+8壁、怪獣5体を失う',
   },
   {
     name: 'ロックガーデン',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'アメジスト',
-    desc: '+3塔',
+    desc: '+2塔',
   },
   {
     name: 'スペルウィーバー',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ロドストーン',
-    desc: '+3塔。このカードはプレイせずに捨てることはできません',
+    desc: '+18塔。このカードはプレイせずに捨てることはできません',
   },
   {
     name: '太陽フレア',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ルビー',
-    desc: '+5塔',
+    desc: '+4塔',
   },
   {
     name: '宝石の槍',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'エメラルド',
-    desc: '+8塔',
+    desc: '+6塔',
   },
   {
     name: '知恵の真珠',
-    desc: '+5塔。+1魔法',
+    desc: '+4塔。+1魔法',
   },
   {
     name: '粉砕機',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'サファイア',
-    desc: '+11塔',
+    desc: '+8塔',
   },
   {
     name: '不和',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ダイヤモンド',
-    desc: '+15塔',
+    desc: '+10塔',
   },
   {
     name: '聖域',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ドラゴンの目',
-    desc: '+20塔',
+    desc: '+14塔',
   },
   {
     name: '結晶化する',
-    desc: '+11塔。-6壁',
+    desc: '+9塔。-6壁',
   },
   {
     name: '装身具の袋',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '虹',
-    desc: '全プレイヤーに+1塔。あなたは3つの宝石を得る',
+    desc: '全プレイヤーに+2塔。あなたは4つの宝石を得る',
   },
   {
     name: '見習い',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '狂牛病',
-    desc: 'すべてのプレイヤーは6体の怪獣を失います',
+    desc: 'すべてのプレイヤーは8体の怪獣を失います',
   },
   {
     name: '妖精',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'エルフスカウト',
-    desc: 'カードを1枚引く。カードを1枚捨てる。再びプレー',
+    desc: 'カードを2枚引く。カードを2枚捨てる',
   },
   {
     name: 'ゴブリン暴徒',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'オーク',
-    desc: '5ダメージ',
+    desc: '4ダメージ',
   },
   {
     name: 'ドワーフ',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'スラッシャー',
-    desc: '6ダメージ',
+    desc: '9ダメージ',
   },
   {
     name: 'オーガ',
-    desc: '7ダメージ',
+    desc: '8ダメージ',
   },
   {
     name: '狂暴な羊',
-    desc: '6ダメージ。敵は3体の怪獣を失う',
+    desc: '6ダメージ。敵は4体の怪獣を失う',
   },
   {
     name: 'インプ',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '人狼',
-    desc: '9ダメージ',
+    desc: '10ダメージ',
   },
   {
     name: '腐食雲',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '泥棒',
-    desc: '敵は10個の宝石と5個のレンガを失い、半分の量を獲得し、切り上げます',
+    desc: '敵は8個の宝石と8個のレンガを失い、半分の量を獲得し、切り上げます',
   },
   {
     name: '石の巨人',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ドラゴン',
-    desc: '20ダメージ。敵は宝石を10個失う。敵のダンジョンを-1',
+    desc: '18ダメージ。敵は宝石を10個失う。敵の魔法を-1',
   },
   {
     name: 'スピアマン',
-    desc: '壁>敵の壁の場合、3ダメージ、それ以外の場合、2ダメージ',
+    desc: '壁>敵の壁の場合、4ダメージ、それ以外の場合、2ダメージ',
   },
   {
     name: '地の精',
-    desc: '3ダメージ。+1宝石',
+    desc: '3ダメージ。+2宝石',
   },
   {
     name: 'バーサーカー',

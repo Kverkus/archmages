@@ -115,6 +115,11 @@ export const i18n = {
   'Apply & New Game': '적용 및 새 게임',
   Cancel: '취소',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: '언어',
 
   'Sound & Graphics': '사운드 및 그래픽',
@@ -156,7 +161,7 @@ export const i18n = {
   'Bold font': '굵은 글꼴',
   ERATHIAN: '에라시안 문자 %s 사용 (라틴 문자 언어만)',
 
-  'ArcoMage HD': '아르코메이지 HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: '3DO와 NWC의 2000년 카드 게임 아르코메이지의 웹 기반 무료 오픈소스 HD 클론',
 
@@ -185,4 +190,29 @@ export const i18n = {
 
   'Please rotate your device to landscape mode':
     '기기를 가로 모드로 회전하세요',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

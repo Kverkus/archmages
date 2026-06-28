@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '幸運寶藏',
-    desc: '磚塊+2，寶石+2，再次出牌',
+    desc: '磚塊+2，寶石+2',
   },
   {
     name: '友善地形',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '強化牆壁',
-    desc: '城牆+8',
+    desc: '城牆+9',
   },
   {
     name: '神秘閘門',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '強制勞役',
-    desc: '城牆+9，魔獸-5',
+    desc: '城牆+8，魔獸-5',
   },
   {
     name: '岩石花園',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '紫色水晶',
-    desc: '塔樓+3',
+    desc: '塔樓+2',
   },
   {
     name: '魔法編織',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '怪石纏身',
-    desc: '塔樓+3，這張牌不能棄換，只能使用',
+    desc: '塔樓+18，這張牌不能棄換，只能使用',
   },
   {
     name: '太陽耀斑',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '深紅寶石',
-    desc: '塔樓+5',
+    desc: '塔樓+4',
   },
   {
     name: '水晶之矛',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '神奇翡翠',
-    desc: '塔樓+8',
+    desc: '塔樓+6',
   },
   {
     name: '智慧珍珠',
-    desc: '塔樓+5，寶石產量+1',
+    desc: '塔樓+4，寶石產量+1',
   },
   {
     name: '碎裂狂徒',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '藍色寶石',
-    desc: '塔樓+11',
+    desc: '塔樓+8',
   },
   {
     name: '不可調和',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '鑽石永恆',
-    desc: '塔樓+15',
+    desc: '塔樓+10',
   },
   {
     name: '庇護聖地',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '神龍之眼',
-    desc: '塔樓+20',
+    desc: '塔樓+14',
   },
   {
     name: '結晶寶石',
-    desc: '塔樓+11，城牆-6',
+    desc: '塔樓+9，城牆-6',
   },
   {
     name: '雜物之袋',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '雨後彩虹',
-    desc: '雙方塔樓同時+1，己方寶石+3',
+    desc: '雙方塔樓同時+2，己方寶石+4',
   },
   {
     name: '魔法學徒',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '瘋牛疾病',
-    desc: '雙方魔獸同時-6',
+    desc: '雙方魔獸同時-8',
   },
   {
     name: '幻境仙子',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '精靈密探',
-    desc: '換一張牌後，再次出牌',
+    desc: '抽2張牌，棄2張牌',
   },
   {
     name: '地精暴徒',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '獸人進攻',
-    desc: '5點攻擊',
+    desc: '4點攻擊',
   },
   {
     name: '矮人小隊',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '殺人魔鬼',
-    desc: '6點攻擊',
+    desc: '9點攻擊',
   },
   {
     name: '食人巨妖',
-    desc: '7點攻擊',
+    desc: '8點攻擊',
   },
   {
     name: '狂暴公羊',
-    desc: '6點攻擊，對手魔獸-3',
+    desc: '6點攻擊，對手魔獸-4',
   },
   {
     name: '惡鬼作怪',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '半人半狼',
-    desc: '9點攻擊',
+    desc: '10點攻擊',
   },
   {
     name: '腐蝕之雲',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '無影神偷',
-    desc: '對手寶石-10，磚塊-5，你得到其中一半（向上取整）',
+    desc: '對手寶石-8，磚塊-8，你得到其中一半（向上取整）',
   },
   {
     name: '岩石巨人',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '無敵天龍',
-    desc: '20點攻擊，對手寶石-10，魔獸產量-1',
+    desc: '18點攻擊，對手寶石-10，寶石產量-1',
   },
   {
     name: '長矛槍兵',
-    desc: '如果城牆多於對手，則3點攻擊，否則2點攻擊',
+    desc: '如果城牆多於對手，則4點攻擊，否則2點攻擊',
   },
   {
     name: '頑皮侏儒',
-    desc: '3點攻擊，寶石+1',
+    desc: '3點攻擊，寶石+2',
   },
   {
     name: '狂暴戰士',

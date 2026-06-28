@@ -116,6 +116,11 @@ export const i18n = {
   'Apply & New Game': 'Použít a nová hra',
   Cancel: 'Zrušit',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Jazyk',
 
   'Sound & Graphics': 'Zvuk a Grafika',
@@ -157,7 +162,7 @@ export const i18n = {
   'Bold font': 'Tučné písmo',
   ERATHIAN: 'Používejte Erathian %s (pouze jazyky s latinkou)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Webový bezplatný a open source HD klon karetní hry Arcomage pro 3DO a NWC z roku 2000',
 
@@ -186,4 +191,29 @@ Cihly se generují v červeném generátoru těžby, drahokamy v modrém generá
 
   'Please rotate your device to landscape mode':
     'Otočte zařízení do režimu na šířku',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

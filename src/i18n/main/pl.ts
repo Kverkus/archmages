@@ -116,6 +116,11 @@ export const i18n = {
   'Apply & New Game': 'Akceptuj i zacznij grę',
   Cancel: 'Zakończ',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Język',
 
   'Sound & Graphics': 'Dźwięk i Grafika',
@@ -157,7 +162,7 @@ export const i18n = {
   'Bold font': 'Użyj pogrubionej czcionki',
   ERATHIAN: 'Użyj Erathian %s (tylko języki z pismem łacińskim)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Sieciowy, darmowy i otwartoźródłowy klon 3DO i gry karcianej Arcomage z 2000 roku firmy NWC',
 
@@ -186,4 +191,29 @@ Czerwony kolor oznacza generator kamieni, w którym powstaje surowiec zwany kami
 
   'Please rotate your device to landscape mode':
     'Proszę obrócić urządzenie do trybu poziomego',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

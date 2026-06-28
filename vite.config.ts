@@ -34,6 +34,7 @@ const ReactCompilerConfig = {
 }
 
 const homeUrl = process.env.APP_URL || defaultAppUrl
+const faviconVersion = 'archmages'
 
 let isServe = false
 
@@ -50,10 +51,14 @@ export default defineConfig({
     'import.meta.env.APP_TITLE': JSON.stringify(origTitle),
     'import.meta.env.APP_URL': JSON.stringify(homeUrl),
     'import.meta.env.APP_FAVICONSVG': JSON.stringify(
-      isDev ? './favicon.svg' : `${homeUrl}favicon.svg`,
+      isDev
+        ? `./favicon.svg?v=${faviconVersion}`
+        : `${homeUrl}favicon.svg?v=${faviconVersion}`,
     ),
     'import.meta.env.APP_FAVICONICO': JSON.stringify(
-      isDev ? './favicon.ico' : `${homeUrl}favicon.ico`,
+      isDev
+        ? `./favicon.ico?v=${faviconVersion}`
+        : `${homeUrl}favicon.ico?v=${faviconVersion}`,
     ),
     'import.meta.env.APP_OGIMAGE': JSON.stringify(
       isDev ? './ogimage.jpg' : `${homeUrl}ogimage.jpg`,

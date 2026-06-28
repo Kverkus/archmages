@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Escondrijo de la suerte',
-    desc: '+2 ladrillos, +2 gemas. Juega de nuevo',
+    desc: '+2 ladrillos, +2 gemas.',
   },
   {
     name: 'Terreno amistoso',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Muro reforzado',
-    desc: '+8 muros',
+    desc: '+9 muros',
   },
   {
     name: 'Portillo',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Trabajos forzados',
-    desc: '+9 muros. Pierdes 5 miembros',
+    desc: '+8 muros. Pierdes 5 miembros',
   },
   {
     name: 'Jardín de rocas',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Amatista',
-    desc: '+3 torres',
+    desc: '+2 torres',
   },
   {
     name: 'Tejedores de hechizos',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Piedra imán',
-    desc: '+3 torres. No puedes descartarte de esta carta sin jugarla',
+    desc: '+18 torres. No puedes descartarte de esta carta sin jugarla',
   },
   {
     name: 'Reflejo solar',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubí',
-    desc: '+5 torres',
+    desc: '+4 torres',
   },
   {
     name: 'Lanza de gema',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Esmeralda',
-    desc: '+8 torres',
+    desc: '+6 torres',
   },
   {
     name: 'Perla de sabiduría',
-    desc: '+5 torres, +1 magia',
+    desc: '+4 torres, +1 magia',
   },
   {
     name: 'Fragmentador',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Zafiro',
-    desc: '+11 Torre',
+    desc: '+8 Torre',
   },
   {
     name: 'Cizaña',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamante',
-    desc: '+15 torres',
+    desc: '+10 torres',
   },
   {
     name: 'Santuario',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ojo de dragón',
-    desc: '+20 torres',
+    desc: '+14 torres',
   },
   {
     name: 'Cristalizar',
-    desc: '+11 torres, -6 muros',
+    desc: '+9 torres, -6 muros',
   },
   {
     name: 'Saco de baratijas',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arcoíris',
-    desc: '+1 torre a todos los jugadores. Ganas 3 gemas',
+    desc: '+2 torre a todos los jugadores. Ganas 4 gemas',
   },
   {
     name: 'Aprendiz',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Vaca loca',
-    desc: 'Todos los jugadores pierden 6 miembros',
+    desc: 'Todos los jugadores pierden 8 miembros',
   },
   {
     name: 'Hada',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Explorador elfo',
-    desc: 'Roba 1 carta. Descártate de 1 carta. Juega de nuevo',
+    desc: 'Roba 2 cartas. Descártate de 2 cartas',
   },
   {
     name: 'Turba de goblins',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orco',
-    desc: '5 daños',
+    desc: '4 daños',
   },
   {
     name: 'Enanos',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Troceador',
-    desc: '6 daños',
+    desc: '9 daños',
   },
   {
     name: 'Ogro',
-    desc: '7 daños',
+    desc: '8 daños',
   },
   {
     name: 'Oveja rabiosa',
-    desc: '6 daños. El enemigo pierde 3 miembros',
+    desc: '6 daños. El enemigo pierde 4 miembros',
   },
   {
     name: 'Diablillo',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Hombre lobo',
-    desc: '9 daños',
+    desc: '10 daños',
   },
   {
     name: 'Nube corrosiva',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ladrón',
-    desc: 'El enemigo pierde 10 gemas, 5 ladrillos, ganas la mitad Redondea',
+    desc: 'El enemigo pierde 8 gemas, 8 ladrillos, ganas la mitad Redondea',
   },
   {
     name: 'Gigante de piedra',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragón',
-    desc: '20 daños. El enemigo pierde 10 gemas, -1 mazmorra enemiga',
+    desc: '18 daños. El enemigo pierde 10 gemas, -1 magia enemiga',
   },
   {
     name: 'Lancero',
-    desc: 'Si Muro > Muro enemigo, provoca 3 daños, si no, provoca 2 daños',
+    desc: 'Si Muro > Muro enemigo, provoca 4 daños, si no, provoca 2 daños',
   },
   {
     name: 'Gnomo',
-    desc: '3 daños, +1 gema',
+    desc: '3 daños, +2 gema',
   },
   {
     name: 'Loco furioso',

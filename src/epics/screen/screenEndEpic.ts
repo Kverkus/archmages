@@ -2,6 +2,7 @@ import { ofType, StateObservable } from 'redux-observable'
 import { concat, Observable, of } from 'rxjs'
 import { withLatestFrom, mergeMap } from 'rxjs/operators'
 import { ABORT_ALL, SCREEN_END, SCREEN_END_MAIN } from '@/constants/ActionTypes'
+import { recordBattleResult } from '@/draft/store'
 import { RootActionType } from '@/types/actionObj'
 import { isEndScreenNoCloseState, RootStateType } from '@/types/state'
 import { play } from '@/utils/sound/Sound'
@@ -19,6 +20,7 @@ export default (
       const { payload } = action
       if (isEndScreenNoCloseState(payload)) {
         play(soundMap[payload.type])
+        recordBattleResult(payload.type)
       }
       return concat(
         of<RootActionType>({

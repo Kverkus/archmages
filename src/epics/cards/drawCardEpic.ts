@@ -11,6 +11,7 @@ import {
   DRAW_CARD_FROM_QUEUE,
 } from '@/constants/ActionTypes'
 import { INST } from '@/constants/connDataKind'
+import { drawCardForOwner } from '@/draft/store'
 import { RootActionType } from '@/types/actionObj'
 import { RootStateType } from '@/types/state'
 import { randomWithProbs } from '@/utils/randomWithProbs'
@@ -29,9 +30,10 @@ export default (
 
       let temp$: Observable<RootActionType>
       if (multiGameNumber === -1) {
+        const owner = state.game.playersTurn ? 'player' : 'opponent'
         temp$ = of<RootActionType>({
           type: DRAW_CARD_CORE,
-          n: randomWithProbs(),
+          n: drawCardForOwner(owner),
         }).pipe(delay(0))
       } else if (isHost) {
         const n = randomWithProbs()

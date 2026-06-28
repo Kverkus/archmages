@@ -74,12 +74,18 @@ export const SCREEN_PREF = 'SCREEN_PREF' as const
 export const SCREEN_LANG_PREF = 'SCREEN_LANG_PREF' as const
 export const SCREEN_VOLUME_PREF = 'SCREEN_VOLUME_PREF' as const
 export const SCREEN_HELP = 'SCREEN_HELP' as const
+export const SCREEN_MODE_MENU = 'SCREEN_MODE_MENU' as const
+export const SCREEN_DRAFT_PICK = 'SCREEN_DRAFT_PICK' as const
+export const SCREEN_DRAFT_BETWEEN = 'SCREEN_DRAFT_BETWEEN' as const
+export const SCREEN_DRAFT_COMPLETE = 'SCREEN_DRAFT_COMPLETE' as const
+export const SCREEN_DRAFT_SAVE_NOTICE = 'SCREEN_DRAFT_SAVE_NOTICE' as const
 export const SCREEN_LANDSCAPE = 'SCREEN_LANDSCAPE' as const
 export const SCREEN_DISCONNECT_NOTICE = 'SCREEN_DISCONNECT_NOTICE' as const
 
 export const SCREEN_END = 'SCREEN_END' as const
 export const SCREEN_END_MAIN = 'SCREEN_END_MAIN' as const
 export const CLOSE_SCREEN_END_INIT = 'CLOSE_SCREEN_END_INIT' as const
+export const RESTORE_DRAFT_MATCH = 'RESTORE_DRAFT_MATCH' as const
 
 export const AI_PLAY_CARD = 'AI_PLAY_CARD' as const
 

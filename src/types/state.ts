@@ -102,6 +102,11 @@ export type ScreenStateType = {
   langPref: boolean
   sgPref: boolean
   help: boolean
+  modeMenu: boolean
+  draftPick: boolean
+  draftBetween: boolean
+  draftComplete: boolean
+  draftSaveNotice: boolean
   landscape: boolean
   disconnectNotice: boolean
   end: EndScreenStateType

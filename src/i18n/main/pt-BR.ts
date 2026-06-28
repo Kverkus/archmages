@@ -117,6 +117,11 @@ export const i18n = {
   'Apply & New Game': 'Aplicar & Novo Jogo',
   Cancel: 'Cancelar',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Idioma',
 
   'Sound & Graphics': 'Som e Gráficos',
@@ -158,7 +163,7 @@ export const i18n = {
   'Bold font': 'Fonte em negrito',
   ERATHIAN: 'Usar Erathian %s (somente linguagens de escrita latina)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Clone HD, baseado em web, gratuito e de código aberto do jogo de cartas Arcomage, da 3DO e NWC, lançado em 2000.',
 
@@ -187,4 +192,29 @@ Na coluna lateral, o vermelho representa seu gerador Pedreira, que produz Tijolo
 
   'Please rotate your device to landscape mode':
     'Por favor, rotacione seu dispositivo para o modo paisagem',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

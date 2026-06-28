@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ergiebige Lagerstätte',
-    desc: '+2 Ziegel, +2 Edelsteine. Erneut spielen',
+    desc: '+2 Ziegel, +2 Edelsteine.',
   },
   {
     name: 'Freundliches Terrain',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Verstärkter Wall',
-    desc: '+8 Wall',
+    desc: '+9 Wall',
   },
   {
     name: 'Falltüre',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Zwangsarbeit',
-    desc: '+9 Wall, Verliere 5 Rekruten',
+    desc: '+8 Wall, Verliere 5 Rekruten',
   },
   {
     name: 'Felsgarten',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Amethyst',
-    desc: '+3 Turm',
+    desc: '+2 Turm',
   },
   {
     name: 'Zauberer',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnet',
-    desc: '+3 Turm. Diese Karte kann nicht abgelegt werden ohne sie zu spielen',
+    desc: '+18 Turm. Diese Karte kann nicht abgelegt werden ohne sie zu spielen',
   },
   {
     name: 'Sonnenreflexion',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubin',
-    desc: '+5 Turm',
+    desc: '+4 Turm',
   },
   {
     name: 'Edelsteinspeer',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Smaragd',
-    desc: '+8 Turm',
+    desc: '+6 Turm',
   },
   {
     name: 'Perle der Weisheit',
-    desc: '+5 Turm, +1 Magie',
+    desc: '+4 Turm, +1 Magie',
   },
   {
     name: 'Zertrümmerer',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Saphir',
-    desc: '+11 Turm',
+    desc: '+8 Turm',
   },
   {
     name: 'Zwietracht',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamant',
-    desc: '+15 Turm',
+    desc: '+10 Turm',
   },
   {
     name: 'Heiligtum',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drachenauge',
-    desc: '+20 Turm',
+    desc: '+14 Turm',
   },
   {
     name: 'Kristallisieren',
-    desc: '+11 Turm, -6 Wall',
+    desc: '+9 Turm, -6 Wall',
   },
   {
     name: 'Kunstedelsteine',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Regenbogen',
-    desc: '+1 Turm für alle Spieler. Du gewinnst 3 Edelsteine',
+    desc: '+2 Turm für alle Spieler. Du gewinnst 4 Edelsteine',
   },
   {
     name: 'Lehrling',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rinderwahn',
-    desc: 'Alle Spieler verlieren 6 Rekruten',
+    desc: 'Alle Spieler verlieren 8 Rekruten',
   },
   {
     name: 'Fee',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Späher',
-    desc: '1 Karte ziehen, 1 Karte ablegen. Erneut spielen',
+    desc: '2 Karten ziehen, 2 Karten ablegen',
   },
   {
     name: 'Koboldbande',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '5 Schaden',
+    desc: '4 Schaden',
   },
   {
     name: 'Zwerge',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Schlitzer',
-    desc: '6 Schaden',
+    desc: '9 Schaden',
   },
   {
     name: 'Oger',
-    desc: '7 Schaden',
+    desc: '8 Schaden',
   },
   {
     name: 'Tollwütiges Schaf',
-    desc: '6 Schaden. Feind verliert 3 Rekruten',
+    desc: '6 Schaden. Feind verliert 4 Rekruten',
   },
   {
     name: 'Kobold',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Werwolf',
-    desc: '9 Schaden',
+    desc: '10 Schaden',
   },
   {
     name: 'Korrosionswalke',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dieb',
-    desc: 'Feind verliert 10 Edelsteine, 5 Steine. Du gewinnst die Hälfte (aufgerundet)',
+    desc: 'Feind verliert 8 Edelsteine, 8 Steine. Du gewinnst die Hälfte (aufgerundet)',
   },
   {
     name: 'Steinriese',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drache',
-    desc: '20 Schaden. Feind verliert 10 Rekruten, -1 Feindkerker',
+    desc: '18 Schaden. Feind verliert 10 Edelsteine, -1 Feindmagie',
   },
   {
     name: 'Speerkämpfer',
-    desc: 'Falls Wall > Feindwall‚ 3 Schaden, sonst 2 Schaden',
+    desc: 'Falls Wall > Feindwall‚ 4 Schaden, sonst 2 Schaden',
   },
   {
     name: 'Gnom',
-    desc: '3 Schaden, +1 Edelstein',
+    desc: '3 Schaden, +2 Edelstein',
   },
   {
     name: 'Berserker',

@@ -172,3 +172,64 @@ it('None of the cards is modified', () => {
     expect(o1.wall >= 0).toBeTruthy()
   })
 })
+
+it('new balance card mechanics are applied', () => {
+  expect(cards[1].special?.playagain).toBeUndefined()
+  expect(cards[72].special?.drawDiscard).toStrictEqual({
+    draw: 2,
+    discard: 2,
+  })
+  expect(cards[72].special?.drawDiscardPlayagain).toBeUndefined()
+
+  const thiefPlayer: PersonStatusType = {
+    bricks: 0,
+    gems: 0,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  const thiefOpponent: PersonStatusType = {
+    bricks: 8,
+    gems: 7,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  cards[93].effect(thiefPlayer, thiefOpponent)
+  expect(thiefPlayer.bricks).toBe(4)
+  expect(thiefPlayer.gems).toBe(4)
+  expect(thiefOpponent.bricks).toBe(0)
+  expect(thiefOpponent.gems).toBe(0)
+
+  const dragonPlayer: PersonStatusType = {
+    bricks: 0,
+    gems: 0,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  const dragonOpponent: PersonStatusType = {
+    bricks: 0,
+    gems: 20,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 3,
+    recruitProd: 3,
+    tower: 30,
+    wall: 0,
+  }
+  cards[96].effect(dragonPlayer, dragonOpponent)
+  expect(dragonOpponent.tower).toBe(12)
+  expect(dragonOpponent.gems).toBe(10)
+  expect(dragonOpponent.gemProd).toBe(2)
+  expect(dragonOpponent.recruitProd).toBe(3)
+})

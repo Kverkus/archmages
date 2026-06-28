@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Cache de fortune',
-    desc: '+2 briques, +2 gemmes. Rejouer',
+    desc: '+2 briques, +2 gemmes.',
   },
   {
     name: 'Terrain accueillant',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Mur renforcé',
-    desc: '+8 mur',
+    desc: '+9 mur',
   },
   {
     name: 'Porticulus',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Travail forcé',
-    desc: '+9 mur. Perte de 5 recrues',
+    desc: '+8 mur. Perte de 5 recrues',
   },
   {
     name: 'Jardin de rochers',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Améthyste',
-    desc: '+3 tour',
+    desc: '+2 tour',
   },
   {
     name: 'Tisseurs de sorts',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Pierre d’aimant',
-    desc: '+3 tour. Vous ne pouvez pas vous défausser sans jouer la carte',
+    desc: '+18 tour. Vous ne pouvez pas vous défausser sans jouer la carte',
   },
   {
     name: 'Flamboiement solaire',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rubis',
-    desc: '+5 tour',
+    desc: '+4 tour',
   },
   {
     name: 'Lance de gemme',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Émeraude',
-    desc: '+8 tour',
+    desc: '+6 tour',
   },
   {
     name: 'Perle de sagesse',
-    desc: '+5 tour, +1 magie',
+    desc: '+4 tour, +1 magie',
   },
   {
     name: 'Fracasseur',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Saphir',
-    desc: '+11 tour',
+    desc: '+8 tour',
   },
   {
     name: 'Discorde',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamant',
-    desc: '+15 tour',
+    desc: '+10 tour',
   },
   {
     name: 'Sanctuaire',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Œil du dragon',
-    desc: '+20 tour',
+    desc: '+14 tour',
   },
   {
     name: 'Cristalliser',
-    desc: '+11 tour, -6 mur',
+    desc: '+9 tour, -6 mur',
   },
   {
     name: 'Sac de colifichets',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arc-en-ciel',
-    desc: '+1 tour pour chaque joueur. Vous obtenez 3 gemmes',
+    desc: '+2 tour pour chaque joueur. Vous obtenez 4 gemmes',
   },
   {
     name: 'Apprenti',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Maladie De La Vache Folle',
-    desc: 'Chaque joueur perd 6 recrues',
+    desc: 'Chaque joueur perd 8 recrues',
   },
   {
     name: 'Fée',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Éclaireur elfe',
-    desc: 'Tirer 1 carte. Se défausser. Rejouer',
+    desc: 'Tirer 2 cartes. Se défausser de 2 cartes',
   },
   {
     name: 'Foule de gobelins',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '5 dégâts',
+    desc: '4 dégâts',
   },
   {
     name: 'Nains',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Faucheur',
-    desc: '6 dégâts',
+    desc: '9 dégâts',
   },
   {
     name: 'Ogre',
-    desc: '7 dégâts',
+    desc: '8 dégâts',
   },
   {
     name: 'Mouton enragé',
-    desc: '6 dégâts. Ennemi perd 3 recrues',
+    desc: '6 dégâts. Ennemi perd 4 recrues',
   },
   {
     name: 'Vandale',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Loup-garou',
-    desc: '9 dégâts',
+    desc: '10 dégâts',
   },
   {
     name: 'Nuage de corrosion',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Voleur',
-    desc: 'Ennemi perd 10 gemmes, 5 briques. Vous obtenez 1/2 unité. Arrondi',
+    desc: 'Ennemi perd 8 gemmes, 8 briques. Vous obtenez 1/2 unité. Arrondi',
   },
   {
     name: 'Géant de pierre',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragon',
-    desc: '20 dégâts. Ennemi perd 10 gemmes, -1 donjon ennemi',
+    desc: '18 dégâts. Ennemi perd 10 gemmes, -1 magie ennemie',
   },
   {
     name: 'Lancier',
-    desc: 'Si mur > mur ennemi, provoque 3 dégâts, sinon 2 dégâts',
+    desc: 'Si mur > mur ennemi, provoque 4 dégâts, sinon 2 dégâts',
   },
   {
     name: 'Gnome',
-    desc: '3 dégâts, +1 gemme',
+    desc: '3 dégâts, +2 gemme',
   },
   {
     name: 'Fou furieux',

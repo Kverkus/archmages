@@ -116,6 +116,11 @@ export const i18n = {
   'Apply & New Game': 'Alkalmazás és új játék',
   Cancel: 'Mégse',
 
+  'Game mode': 'Game mode',
+  'Choose a game mode': 'Choose a game mode',
+  Classic: 'Classic',
+  Draft: 'Draft',
+
   Language: 'Nyelv',
 
   'Sound & Graphics': 'Hang és grafika',
@@ -157,7 +162,7 @@ export const i18n = {
   'Bold font': 'Félkövér betűtípus',
   ERATHIAN: 'Használj Erathiait %s (csak latin betűs nyelvek)',
 
-  'ArcoMage HD': 'ArcoMage HD',
+  'ArcoMage HD': 'Archmages',
 
   DESC: 'Webes, ingyenes és nyílt forráskódú HD-klónja a 3DO és NWC által 2000-ben kiadott Arcomage kártyajátéknak.',
 
@@ -186,4 +191,29 @@ A piros a bányát jelöli, ami téglákat termel. A kék a mágia, ami a drága
 
   'Please rotate your device to landscape mode':
     'Kérlek fordítsd fekvő módba a készüléked',
+
+  'Draft Complete': 'Draft Complete',
+  'Between Matches': 'Current progress',
+  'Draft progress saved': 'Draft progress saved',
+  'Your draft progress has been saved. You can continue later.':
+    'Your draft progress has been saved. You can continue later.',
+  'You already have a draft run in progress.':
+    'You already have a draft run in progress.',
+  Continue: 'Continue',
+  'New Draft': 'New Draft',
+  'Choose a card': 'Choose a card',
+  'Last match: win': 'Last match: win',
+  'Last match: loss': 'Last match: loss',
+  'Last match: tie': 'Last match: tie',
+  Wins: 'Wins',
+  Losses: 'Losses',
+  'Next match': 'Next match',
+  Modes: 'Modes',
+  'Draft Victory': 'Draft Victory',
+  'Draft Defeat': 'Draft Defeat',
+  'Draw pile': 'Draw pile',
+  'Discard pile': 'Discard pile',
+  'Player deck': 'Player deck',
+  'Opponent deck': 'Opponent deck',
+  OK: 'OK',
 }

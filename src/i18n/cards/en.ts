@@ -7,7 +7,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lucky Cache',
-    desc: '+2 Bricks. +2 Gems. Play again',
+    desc: '+2 Bricks. +2 Gems.',
   },
   {
     name: 'Friendly Terrain',
@@ -79,7 +79,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Reinforced Wall',
-    desc: '+8 Wall',
+    desc: '+9 Wall',
   },
   {
     name: 'Porticulus',
@@ -115,7 +115,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Forced Labor',
-    desc: '+9 Wall, lose 5 recruits',
+    desc: '+8 Wall, lose 5 recruits',
   },
   {
     name: 'Rock Garden',
@@ -147,7 +147,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Amethyst',
-    desc: '+3 Tower',
+    desc: '+2 Tower',
   },
   {
     name: 'Spell Weavers',
@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lodestone',
-    desc: "+3 Tower. This card can't be discarded without playing it",
+    desc: "+18 Tower. This card can't be discarded without playing it",
   },
   {
     name: 'Solar Flare',
@@ -175,7 +175,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ruby',
-    desc: '+5 Tower',
+    desc: '+4 Tower',
   },
   {
     name: 'Gem Spear',
@@ -195,11 +195,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Emerald',
-    desc: '+8 Tower',
+    desc: '+6 Tower',
   },
   {
     name: 'Pearl of Wisdom',
-    desc: '+5 Tower. +1 Magic',
+    desc: '+4 Tower. +1 Magic',
   },
   {
     name: 'Shatterer',
@@ -211,7 +211,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Sapphire',
-    desc: '+11 Tower',
+    desc: '+8 Tower',
   },
   {
     name: 'Discord',
@@ -235,7 +235,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Diamond',
-    desc: '+15 Tower',
+    desc: '+10 Tower',
   },
   {
     name: 'Sanctuary',
@@ -247,11 +247,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: "Dragon's Eye",
-    desc: '+20 Tower',
+    desc: '+14 Tower',
   },
   {
     name: 'Crystallize',
-    desc: '+11 Tower. -6 Wall',
+    desc: '+9 Tower. -6 Wall',
   },
   {
     name: 'Bag of Baubles',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rainbow',
-    desc: '+1 Tower to all players. You gain 3 gems',
+    desc: '+2 Tower to all players. You gain 4 gems',
   },
   {
     name: 'Apprentice',
@@ -275,7 +275,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Mad Cow Disease',
-    desc: 'All players lose 6 recruits',
+    desc: 'All players lose 8 recruits',
   },
   {
     name: 'Faerie',
@@ -291,7 +291,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Elven Scout',
-    desc: 'Draw 1 card. Discard 1 card. Play again',
+    desc: 'Draw 2 cards. Discard 2 cards',
   },
   {
     name: 'Goblin Mob',
@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '5 Damage',
+    desc: '4 Damage',
   },
   {
     name: 'Dwarves',
@@ -331,15 +331,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Slasher',
-    desc: '6 Damage',
+    desc: '9 Damage',
   },
   {
     name: 'Ogre',
-    desc: '7 Damage',
+    desc: '8 Damage',
   },
   {
     name: 'Rabid Sheep',
-    desc: '6 Damage. Enemy loses 3 recruits',
+    desc: '6 Damage. Enemy loses 4 recruits',
   },
   {
     name: 'Imp',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Werewolf',
-    desc: '9 Damage',
+    desc: '10 Damage',
   },
   {
     name: 'Corrosion Cloud',
@@ -375,7 +375,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Thief',
-    desc: 'Enemy loses 10 gems, 5 bricks, you gain 1/2 amt. round up',
+    desc: 'Enemy loses 8 gems, 8 bricks, you gain 1/2 amt. round up',
   },
   {
     name: 'Stone Giant',
@@ -387,15 +387,15 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragon',
-    desc: '20 Damage. Enemy loses 10 gems, -1 enemy dungeon',
+    desc: '18 Damage. Enemy loses 10 gems, -1 enemy magic',
   },
   {
     name: 'Spearman',
-    desc: 'If wall > enemy wall do 3 damage else do 2 damage',
+    desc: 'If wall > enemy wall do 4 damage else do 2 damage',
   },
   {
     name: 'Gnome',
-    desc: '3 Damage. +1 Gem',
+    desc: '3 Damage. +2 Gems',
   },
   {
     name: 'Berserker',
