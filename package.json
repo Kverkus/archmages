@@ -5,13 +5,13 @@
   "description": "Web-based free and open source HD clone of 3DO and NWC's 2000 card game Arcomage",
   "author": "Tom Chen <tomchen.org@gmail.com>",
   "license": "MIT",
-  "homepage": "https://arcomage.github.io/",
+  "homepage": "https://kverkus.github.io/archmages/",
   "bugs": {
-    "url": "https://github.com/arcomage/arcomage-hd/issues"
+    "url": "https://github.com/Kverkus/archmages/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arcomage/arcomage-hd.git"
+    "url": "https://github.com/Kverkus/archmages.git"
   },
   "scripts": {
     "install:nooptional": "bun tools/rm-optional-deps/remove.ts && bun install && bun tools/rm-optional-deps/restore.ts",

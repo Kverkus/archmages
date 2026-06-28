@@ -34,11 +34,13 @@ const ReactCompilerConfig = {
 }
 
 const homeUrl = process.env.APP_URL || defaultAppUrl
+const basePath = process.env.BASE_PATH || '/'
 const faviconVersion = 'archmages'
 
 let isServe = false
 
 export default defineConfig({
+  base: basePath,
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
