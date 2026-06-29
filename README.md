@@ -8,7 +8,7 @@ The current version of Archmages offers:
 
 - **A new single-player Draft mode**: build a deck from randomly offered cards and try to survive a series of battles against computer opponents.
 - **Reworked card balance**: most cards have been substantially rebalanced, and some card mechanics have been completely redesigned to make matches more varied and tense.
-- **All the advantages of ArcoMage HD**: play directly in the browser on desktop and mobile, translations into 16 languages including Russian, and multiplayer in Classic mode.
+- **All the advantages of ArcoMage HD**: play directly in the browser on desktop and mobile, translations into 16 languages and multiplayer in Classic mode.
 
 Future updates are planned to add new cards, new single-player and multiplayer modes, and continued balance improvements.
 
