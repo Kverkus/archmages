@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Mágneskő',
-    desc: '+18 torony. Ezt a kártyát nem lehet eldobni',
+    desc: '+16 torony. Ezt a kártyát nem lehet eldobni',
   },
   {
     name: 'Napkitörés',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Szivárvány',
-    desc: '+2 torony minden játékosnak. Kapsz 4 drágakövet',
+    desc: '+2 torony minden játékosnak. Kapsz 3 drágakövet',
   },
   {
     name: 'Inas',

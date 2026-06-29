@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnetovec',
-    desc: '+18 Věž, Tato karta nemůže být odložena',
+    desc: '+16 Věž, Tato karta nemůže být odložena',
   },
   {
     name: 'Sluneční záře',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Duha',
-    desc: '+2 Věž všem hráčům. Získáváš 4 Drahokamy',
+    desc: '+2 Věž všem hráčům. Získáváš 3 Drahokamy',
   },
   {
     name: 'Učedník blesku',

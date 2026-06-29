@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '怪石纏身',
-    desc: '塔樓+18，這張牌不能棄換，只能使用',
+    desc: '塔樓+16，這張牌不能棄換，只能使用',
   },
   {
     name: '太陽耀斑',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '雨後彩虹',
-    desc: '雙方塔樓同時+2，己方寶石+4',
+    desc: '雙方塔樓同時+2，己方寶石+3',
   },
   {
     name: '魔法學徒',

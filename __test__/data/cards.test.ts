@@ -181,6 +181,54 @@ it('new balance card mechanics are applied', () => {
   })
   expect(cards[72].special?.drawDiscardPlayagain).toBeUndefined()
 
+  const lodestonePlayer: PersonStatusType = {
+    bricks: 0,
+    gems: 0,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  const lodestoneOpponent: PersonStatusType = {
+    bricks: 0,
+    gems: 0,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  cards[39].effect(lodestonePlayer, lodestoneOpponent)
+  expect(lodestonePlayer.tower).toBe(36)
+
+  const rainbowPlayer: PersonStatusType = {
+    bricks: 0,
+    gems: 0,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  const rainbowOpponent: PersonStatusType = {
+    bricks: 0,
+    gems: 0,
+    recruits: 0,
+    brickProd: 1,
+    gemProd: 1,
+    recruitProd: 1,
+    tower: 20,
+    wall: 0,
+  }
+  cards[64].effect(rainbowPlayer, rainbowOpponent)
+  expect(rainbowPlayer.tower).toBe(22)
+  expect(rainbowPlayer.gems).toBe(3)
+  expect(rainbowOpponent.tower).toBe(22)
+
   const thiefPlayer: PersonStatusType = {
     bricks: 0,
     gems: 0,

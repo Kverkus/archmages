@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnetita',
-    desc: '+18 Torre. Essa carta não pode ser descartada sem jogá-la',
+    desc: '+16 Torre. Essa carta não pode ser descartada sem jogá-la',
   },
   {
     name: 'Explosão Solar',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arco-íris',
-    desc: '+2 Torre para todos os jogadores. Você ganha 4 gemas',
+    desc: '+2 Torre para todos os jogadores. Você ganha 3 gemas',
   },
   {
     name: 'Aprendiz',

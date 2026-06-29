@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnet',
-    desc: '+18 Turm. Diese Karte kann nicht abgelegt werden ohne sie zu spielen',
+    desc: '+16 Turm. Diese Karte kann nicht abgelegt werden ohne sie zu spielen',
   },
   {
     name: 'Sonnenreflexion',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Regenbogen',
-    desc: '+2 Turm für alle Spieler. Du gewinnst 4 Edelsteine',
+    desc: '+2 Turm für alle Spieler. Du gewinnst 3 Edelsteine',
   },
   {
     name: 'Lehrling',

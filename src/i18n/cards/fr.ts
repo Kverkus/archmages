@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Pierre d’aimant',
-    desc: '+18 tour. Vous ne pouvez pas vous défausser sans jouer la carte',
+    desc: '+16 tour. Vous ne pouvez pas vous défausser sans jouer la carte',
   },
   {
     name: 'Flamboiement solaire',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arc-en-ciel',
-    desc: '+2 tour pour chaque joueur. Vous obtenez 4 gemmes',
+    desc: '+2 tour pour chaque joueur. Vous obtenez 3 gemmes',
   },
   {
     name: 'Apprenti',

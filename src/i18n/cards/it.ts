@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Magnetite',
-    desc: '+18 Torre. Questa carta non può essere scartata senza essere giocata',
+    desc: '+16 Torre. Questa carta non può essere scartata senza essere giocata',
   },
   {
     name: 'Macchia Solare',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arcobaleno',
-    desc: '+2 Torre a tutti i giocatori. Vinci 4 gemme',
+    desc: '+2 Torre a tutti i giocatori. Vinci 3 gemme',
   },
   {
     name: 'Apprendista',

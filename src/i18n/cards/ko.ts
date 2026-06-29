@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '자력석',
-    desc: '+18 탑. 이 카드는 사용하지 않고 버릴 수 없습니다',
+    desc: '+16 탑. 이 카드는 사용하지 않고 버릴 수 없습니다',
   },
   {
     name: '태양 플레어',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '무지개',
-    desc: '모든 플레이어의 탑 +2. 보석 4개 획득',
+    desc: '모든 플레이어의 탑 +2. 보석 3개 획득',
   },
   {
     name: '견습생',

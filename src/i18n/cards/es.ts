@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Piedra imán',
-    desc: '+18 torres. No puedes descartarte de esta carta sin jugarla',
+    desc: '+16 torres. No puedes descartarte de esta carta sin jugarla',
   },
   {
     name: 'Reflejo solar',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Arcoíris',
-    desc: '+2 torre a todos los jugadores. Ganas 4 gemas',
+    desc: '+2 torre a todos los jugadores. Ganas 3 gemas',
   },
   {
     name: 'Aprendiz',

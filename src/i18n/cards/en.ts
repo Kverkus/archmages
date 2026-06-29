@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lodestone',
-    desc: "+18 Tower. This card can't be discarded without playing it",
+    desc: "+16 Tower. This card can't be discarded without playing it",
   },
   {
     name: 'Solar Flare',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Rainbow',
-    desc: '+2 Tower to all players. You gain 4 gems',
+    desc: '+2 Tower to all players. You gain 3 gems',
   },
   {
     name: 'Apprentice',

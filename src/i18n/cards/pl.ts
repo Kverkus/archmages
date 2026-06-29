@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Niebezpieczny Kamień',
-    desc: '+18 Wieża. Tej karty nie można odłożyć bez zagrania nią',
+    desc: '+16 Wieża. Tej karty nie można odłożyć bez zagrania nią',
   },
   {
     name: 'Słoneczny Błysk',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Tęcza',
-    desc: '+2 Wieże wszystkich graczy. +4 klejnoty',
+    desc: '+2 Wieże wszystkich graczy. +3 klejnoty',
   },
   {
     name: 'Uczennica',

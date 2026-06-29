@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '怪石缠身',
-    desc: '城堡+18，这张牌不能弃换，只能使用',
+    desc: '城堡+16，这张牌不能弃换，只能使用',
   },
   {
     name: '太阳耀斑',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '雨后彩虹',
-    desc: '双方城堡同时+2，己方宝石+4',
+    desc: '双方城堡同时+2，己方宝石+3',
   },
   {
     name: '魔法学徒',

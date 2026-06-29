@@ -159,7 +159,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ロドストーン',
-    desc: '+18塔。このカードはプレイせずに捨てることはできません',
+    desc: '+16塔。このカードはプレイせずに捨てることはできません',
   },
   {
     name: '太陽フレア',
@@ -259,7 +259,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '虹',
-    desc: '全プレイヤーに+2塔。あなたは4つの宝石を得る',
+    desc: '全プレイヤーに+2塔。あなたは3つの宝石を得る',
   },
   {
     name: '見習い',
