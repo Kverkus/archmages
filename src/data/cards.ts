@@ -46,7 +46,7 @@ const cards: DataCardsType = [
     // desc: '+1 Quarry',
     type: 0,
     cost: 6,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'brickProd', 1)
     },
@@ -57,7 +57,7 @@ const cards: DataCardsType = [
     // desc: 'If quarry < enemy quarry, +2 quarry. Else, +1 quarry',
     type: 0,
     cost: 8,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       if (p.brickProd < o.brickProd) {
         change(p, 'brickProd', 2)
@@ -72,7 +72,7 @@ const cards: DataCardsType = [
     // desc: '+4 Wall, +1 quarry',
     type: 0,
     cost: 9,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'wall', 4)
       change(p, 'brickProd', 1)
@@ -131,7 +131,7 @@ const cards: DataCardsType = [
     // desc: "+1 To all player's quarrys, you gain 4 gems",
     type: 0,
     cost: 3,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'brickProd', 1)
       change(o, 'brickProd', 1)
@@ -168,7 +168,7 @@ const cards: DataCardsType = [
     // desc: '+1 Magic. Play again',
     type: 0,
     cost: 8,
-    prob: 2,
+    prob: 1,
     special: { playagain: true },
     effect: (p, o) => {
       change(p, 'gemProd', 1)
@@ -180,7 +180,7 @@ const cards: DataCardsType = [
     // desc: "-1 To all player's quarrys",
     type: 0,
     cost: 0,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'brickProd', -1)
       change(o, 'brickProd', -1)
@@ -203,7 +203,7 @@ const cards: DataCardsType = [
     // desc: '-1 Enemy quarry',
     type: 0,
     cost: 6,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(o, 'brickProd', -1)
     },
@@ -214,7 +214,7 @@ const cards: DataCardsType = [
     // desc: '+2 Quarry',
     type: 0,
     cost: 12,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'brickProd', 2)
     },
@@ -249,7 +249,7 @@ const cards: DataCardsType = [
     // desc: '+5 Wall, +1 dungeon',
     type: 0,
     cost: 10,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'wall', 5)
       change(p, 'recruitProd', 1)
@@ -368,7 +368,7 @@ const cards: DataCardsType = [
     // desc: 'Player(s) with lowest wall are -1 Dungeon and 2 damage to tower',
     type: 0,
     cost: 6,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       if (o.wall < p.wall) {
         change(o, 'recruitProd', -1)
@@ -390,7 +390,7 @@ const cards: DataCardsType = [
     // desc: '+6 Recruits, +6 wall. If dungeon < enemy dungeon, +1 dungeon',
     type: 0,
     cost: 10,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'recruits', 6)
       change(p, 'wall', 6)
@@ -465,7 +465,7 @@ const cards: DataCardsType = [
     // desc: '+1 Magic',
     type: 1,
     cost: 6,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'gemProd', 1)
     },
@@ -510,7 +510,7 @@ const cards: DataCardsType = [
     // desc: '+1 Magic. +3 Tower. +1 Enemy tower',
     type: 1,
     cost: 8,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'gemProd', 1)
       change(p, 'tower', 3)
@@ -556,7 +556,7 @@ const cards: DataCardsType = [
     // desc: '5 Damage to your tower. +2 Magic',
     type: 1,
     cost: 7,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'tower', -5)
       change(p, 'gemProd', 2)
@@ -568,7 +568,7 @@ const cards: DataCardsType = [
     // desc: '+1 Magic. +3 Tower. +3 Wall',
     type: 1,
     cost: 10,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'gemProd', 1)
       change(p, 'tower', 3)
@@ -581,7 +581,7 @@ const cards: DataCardsType = [
     // desc: "All player's magic equals the highest player's magic",
     type: 1,
     cost: 8,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       const max = Math.max(o.gemProd, p.gemProd)
       set(p, 'gemProd', max)
@@ -605,7 +605,7 @@ const cards: DataCardsType = [
     // desc: '+4 Tower. +1 Magic',
     type: 1,
     cost: 9,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'tower', 4)
       change(p, 'gemProd', 1)
@@ -666,7 +666,7 @@ const cards: DataCardsType = [
     // desc: '+6 Tower. 4 Damage to enemy tower',
     type: 1,
     cost: 10,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'tower', 6)
       change(o, 'tower', -4)
@@ -702,7 +702,7 @@ const cards: DataCardsType = [
     // desc: '+8 Tower. +1 Dungeon',
     type: 1,
     cost: 12,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'tower', 8)
       change(p, 'recruitProd', 1)
@@ -878,7 +878,7 @@ const cards: DataCardsType = [
     // desc: '+1 Dungeon',
     type: 2,
     cost: 6,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'recruitProd', 1)
     },
@@ -969,7 +969,7 @@ const cards: DataCardsType = [
     // desc: '+2 Dungeon',
     type: 2,
     cost: 12,
-    prob: 2,
+    prob: 1,
     effect: (p, o) => {
       change(p, 'recruitProd', 2)
     },
@@ -993,7 +993,7 @@ const cards: DataCardsType = [
     // desc: "+1 to all player's dungeon. You gain 3 recruits",
     type: 2,
     cost: 0,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'recruitProd', 1)
       change(o, 'recruitProd', 1)
@@ -1152,7 +1152,7 @@ const cards: DataCardsType = [
     // desc: 'Enemy loses 8 gems, 8 bricks, you gain 1/2 amt. round up',
     type: 2,
     cost: 10,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       change(p, 'gems', Math.ceil((o.gems >= 8 ? 8 : o.gems) / 2))
       change(p, 'bricks', Math.ceil((o.bricks >= 8 ? 8 : o.bricks) / 2))
@@ -1243,7 +1243,7 @@ const cards: DataCardsType = [
     // desc: '13 Damage. You lose 3 gems',
     type: 2,
     cost: 10,
-    prob: 2,
+    prob: 3,
     effect: (p, o) => {
       damage(o, 13)
       change(p, 'gems', -3)

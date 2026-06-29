@@ -395,7 +395,9 @@
   }
 
   .screendraftpick {
-    @apply w-full max-w-screen-md;
+    @apply w-full max-w-screen-lg self-start;
+
+    margin-top: clamp(0.75rem, 3dvh, 1.5rem);
   }
 
   .screendraftbetween,

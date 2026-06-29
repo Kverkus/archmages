@@ -30,7 +30,7 @@
 }
 
 .drafttop {
-  @apply flex items-center justify-between gap-3 mb-3;
+  @apply flex items-center justify-between gap-3 mb-2;
 }
 
 .draftcounter {
@@ -49,15 +49,14 @@
 }
 
 .offer {
-  @apply flex flex-wrap justify-center gap-4;
+  @apply flex flex-wrap justify-center gap-3;
 }
 
 .choice {
   @apply relative block bg-transparent p-0 transition duration-200;
 
-  width: min(28vw, 11rem);
-  min-width: 8rem;
-  aspect-ratio: 63 / 88;
+  width: clamp(8rem, 16vw, 9.75rem);
+  aspect-ratio: 188 / 252;
   background: transparent !important;
   border: 0 !important;
   border-radius: 0 !important;
@@ -78,6 +77,16 @@
   }
 }
 
+.draftpicklayout {
+  @apply grid items-start gap-4;
+
+  grid-template-columns: minmax(24rem, 1fr) minmax(13.5rem, 16rem);
+}
+
+.draftpickmain {
+  @apply min-w-0;
+}
+
 .cardframe {
   @apply relative w-full h-full rounded shadow-lg overflow-hidden text-black;
 
@@ -86,12 +95,174 @@
   }
 }
 
-.decklist {
-  @apply mt-4 flex flex-wrap gap-1 text-xs text-gray-200;
+.deckside {
+  @apply relative flex min-w-0 flex-col gap-2;
 }
 
-.deckitem {
-  @apply px-2 py-0.5 rounded bg-white bg-opacity-10;
+.deckstats {
+  @apply grid grid-cols-3 gap-1;
+}
+
+.deckstat {
+  @apply relative overflow-hidden rounded px-1 py-1 text-center text-black shadow;
+
+  background-image: url('@assets/img/noise.webp');
+
+  &::before {
+    @apply absolute inset-0;
+
+    content: '';
+    background: linear-gradient(
+      to left,
+      rgb(19 19 19 / 24%),
+      rgb(0 0 0 / 0%),
+      rgb(19 19 19 / 24%)
+    );
+  }
+}
+
+.deckstatred {
+  @apply bg-red-300;
+}
+
+.deckstatblue {
+  @apply bg-blue-300;
+}
+
+.deckstatgreen {
+  @apply bg-green-300;
+}
+
+.deckstatname,
+.deckstatcount,
+.deckaverage {
+  @apply relative z-10 block leading-tight;
+}
+
+.deckstatname {
+  @apply truncate text-[0.68rem] font-bold;
+}
+
+.deckstatcount {
+  @apply font-mono text-[0.7rem] font-bold;
+}
+
+.deckaverage {
+  @apply mx-auto mt-0.5 w-fit rounded border border-yellow-500 bg-black bg-opacity-60 px-1.5 py-0.5 font-mono text-[0.68rem] font-bold text-yellow-200;
+}
+
+.decklist {
+  @apply flex max-h-[25rem] flex-col gap-1 overflow-y-auto overflow-x-visible pr-1;
+
+  @supports selector(::-webkit-scrollbar) {
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 8px;
+      background: rgb(255 255 255 / 14%);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: rgb(250 204 21 / 70%);
+    }
+  }
+
+  @supports not selector(::-webkit-scrollbar) {
+    scrollbar-color: rgb(250 204 21 / 70%) transparent;
+    scrollbar-width: thin;
+  }
+}
+
+.deckrow {
+  @apply relative grid cursor-default grid-cols-[1.35rem_minmax(0,1fr)_2rem] items-center gap-1 overflow-hidden rounded px-1 py-0.5 text-black shadow outline-none transition;
+
+  min-height: 1.35rem;
+  background-image: url('@assets/img/noise.webp');
+
+  &::before {
+    @apply absolute inset-0;
+
+    content: '';
+    background: linear-gradient(
+      to left,
+      rgb(19 19 19 / 24%),
+      rgb(0 0 0 / 0%),
+      rgb(19 19 19 / 24%)
+    );
+  }
+
+  &:hover,
+  &:focus-visible,
+  &:active {
+    filter: brightness(1.12);
+  }
+}
+
+.deckrowred {
+  @apply bg-red-300;
+}
+
+.deckrowblue {
+  @apply bg-blue-300;
+}
+
+.deckrowgreen {
+  @apply bg-green-300;
+}
+
+.deckrowcount,
+.deckrowname,
+.deckrowcost {
+  @apply relative z-10;
+}
+
+.deckrowcount {
+  @apply text-center font-mono text-xs font-bold;
+}
+
+.deckrowname {
+  @apply truncate text-sm leading-tight;
+}
+
+.deckrowcost {
+  @apply relative h-5 w-5 justify-self-end text-center font-bold;
+}
+
+.deckrowcosticon {
+  @apply absolute inset-0 bg-contain bg-center bg-no-repeat;
+
+  opacity: 0.45;
+}
+
+.deckrowcostbrick {
+  background-image: url('@assets/img/brick.svg');
+}
+
+.deckrowcostgem {
+  background-image: url('@assets/img/gem.svg');
+}
+
+.deckrowcostrecruit {
+  background-image: url('@assets/img/recruit.svg');
+}
+
+.deckrowcostnumber {
+  @apply absolute inset-0 leading-5;
+}
+
+.deckfloatingpreview {
+  @apply fixed z-[130] rounded text-black shadow-2xl pointer-events-none;
+
+  width: var(--cardwidth);
+  height: calc(var(--cardwidth) * 252 / 188);
+  transform: translateY(-50%);
+
+  :global(.cantoggleboldfont) {
+    font-weight: normal;
+  }
 }
 
 .hud {

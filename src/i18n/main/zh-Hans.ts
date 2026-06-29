@@ -116,6 +116,7 @@ export const i18n = {
   'Choose a game mode': 'Choose a game mode',
   Classic: 'Classic',
   Draft: 'Draft',
+  'Draft (beta)': 'Draft（测试版）',
 
   Language: '语言',
 

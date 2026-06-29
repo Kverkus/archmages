@@ -181,7 +181,7 @@ const ModeMenu = () => {
           <p className={styles.description}>{_.i18n('Choose a game mode')}</p>
           <div className={styles.buttonwrapper}>
             <button onClick={startClassic}>{_.i18n('Classic')}</button>
-            <button onClick={startDraft}>{_.i18n('Draft')}</button>
+            <button onClick={startDraft}>{_.i18n('Draft (beta)')}</button>
           </div>
         </>
       )}
