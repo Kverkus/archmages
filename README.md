@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo/logo-archmages.svg" alt="Archmages" width="360">
+</p>
+
 # Archmages
 
 **Archmages** is a free fan-made continuation of the card game **Arcomage**, known from **Might and Magic VII** and **Might and Magic VIII**.

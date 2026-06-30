@@ -16,12 +16,16 @@ import cardStyles from '../zoneCards/Card.module.scss'
 import CardFront from '../zoneCards/CardFront'
 import Window from './Window'
 
-const cardStyle = {
-  '--cardwidth': '9.75rem',
+const choiceCardWidth = 'clamp(8.75rem, min(13vw, 28dvh), 14rem)'
+const floatingPreviewWidth = 'clamp(9rem, min(12vw, 30dvh), 13.5rem)'
+
+const choiceCardStyle = {
+  '--draft-choice-card-width': choiceCardWidth,
+  '--cardwidth': 'var(--draft-choice-card-width)',
 } as CSSProperties
 
 const floatingPreviewStyle = {
-  '--cardwidth': '8.5rem',
+  '--cardwidth': floatingPreviewWidth,
 } as CSSProperties
 
 const cardTypeClassNames = [
@@ -60,11 +64,12 @@ const CardPreview = ({ n, onClick }: CardPreviewPropType) => {
   const type = dataCards[n].type
 
   return (
-    <button className={draftStyles.choice} onClick={onClick}>
-      <div
-        className={cl(draftStyles.cardframe, cardTypeClassNames[type])}
-        style={cardStyle}
-      >
+    <button
+      className={draftStyles.choice}
+      style={choiceCardStyle}
+      onClick={onClick}
+    >
+      <div className={cl(draftStyles.cardframe, cardTypeClassNames[type])}>
         <CardFront n={n} />
       </div>
     </button>
@@ -94,6 +99,24 @@ type FloatingPreviewType = {
   left: number
   top: number
 }
+
+const getResponsiveWidth = (
+  rootFontSize: number,
+  minRem: number,
+  viewportWidthRatio: number,
+  viewportHeightRatio: number,
+  maxRem: number,
+) =>
+  Math.min(
+    Math.max(
+      rootFontSize * minRem,
+      Math.min(
+        window.innerWidth * viewportWidthRatio,
+        window.innerHeight * viewportHeightRatio,
+      ),
+    ),
+    rootFontSize * maxRem,
+  )
 
 const formatAverageCost = (cost: number | null) => {
   if (cost === null) {
@@ -160,7 +183,7 @@ const getFloatingPreviewPosition = (
   const rootFontSize = parseFloat(
     getComputedStyle(document.documentElement).fontSize,
   )
-  const previewWidth = rootFontSize * 8.5
+  const previewWidth = getResponsiveWidth(rootFontSize, 9, 0.12, 0.3, 13.5)
   const previewHeight = (previewWidth * 252) / 188
   const padding = 8
 

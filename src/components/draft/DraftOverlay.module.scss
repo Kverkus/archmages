@@ -11,7 +11,7 @@
 }
 
 .subtitle {
-  @apply text-center text-sm text-gray-300 mt-1;
+  @apply text-center text-lg text-gray-300;
 }
 
 .modebuttons {
@@ -55,7 +55,7 @@
 .choice {
   @apply relative block bg-transparent p-0 transition duration-200;
 
-  width: clamp(8rem, 16vw, 9.75rem);
+  width: var(--draft-choice-card-width, clamp(8.75rem, min(13vw, 28dvh), 14rem));
   aspect-ratio: 188 / 252;
   background: transparent !important;
   border: 0 !important;
@@ -81,18 +81,23 @@
   @apply grid items-start gap-4;
 
   grid-template-columns: minmax(24rem, 1fr) minmax(13.5rem, 16rem);
+  margin-top: 1.45rem;
 }
 
 .draftpickmain {
-  @apply min-w-0;
+  @apply relative min-w-0;
+
+  .subtitle {
+    @apply absolute left-0 w-full;
+
+    top: -2.25rem;
+  }
 }
 
 .cardframe {
   @apply relative w-full h-full rounded shadow-lg overflow-hidden text-black;
 
-  :global(.cantoggleboldfont) {
-    font-weight: normal;
-  }
+  font-size: calc(var(--cardwidth) * 0.094);
 }
 
 .deckside {
@@ -152,7 +157,9 @@
 }
 
 .decklist {
-  @apply flex max-h-[25rem] flex-col gap-1 overflow-y-auto overflow-x-visible pr-1;
+  @apply flex flex-col gap-1 overflow-y-auto overflow-x-visible pr-1;
+
+  max-height: clamp(25rem, 58dvh, 42rem);
 
   @supports selector(::-webkit-scrollbar) {
     &::-webkit-scrollbar {
@@ -258,11 +265,8 @@
 
   width: var(--cardwidth);
   height: calc(var(--cardwidth) * 252 / 188);
+  font-size: calc(var(--cardwidth) * 0.094);
   transform: translateY(-50%);
-
-  :global(.cantoggleboldfont) {
-    font-weight: normal;
-  }
 }
 
 .hud {

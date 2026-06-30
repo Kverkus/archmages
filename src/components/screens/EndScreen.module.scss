@@ -26,19 +26,23 @@
 }
 
 .main {
-  @apply w-full h-full bg-center bg-no-repeat bg-contain relative outline-none focus-visible:outline-white focus-visible:outline-1 cursor-auto;
+  @apply w-full h-full relative outline-none focus-visible:outline-white focus-visible:outline-1 cursor-auto;
+}
 
-  .win & {
-    background-image: url('@assets/img/end_win.svg');
-  }
+.brandlogo {
+  @apply absolute left-1/2 top-0 -translate-x-1/2 transform-gpu pointer-events-none select-none;
 
-  .lose & {
-    background-image: url('@assets/img/end_lose.svg');
-  }
+  width: min(70vw, 52vh);
+  height: 18%;
+  object-fit: contain;
+}
 
-  .tie & {
-    background-image: url('@assets/img/end_tie.svg');
-  }
+.resultimage {
+  @apply absolute left-1/2 bottom-0 -translate-x-1/2 transform-gpu pointer-events-none select-none;
+
+  width: 100%;
+  height: 82%;
+  object-fit: contain;
 }
 
 @keyframes firework {

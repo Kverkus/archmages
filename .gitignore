@@ -1,5 +1,6 @@
 *.traineddata
 todo.md
+temp/
 
 *.pem
 

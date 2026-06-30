@@ -8,11 +8,16 @@ import { reasonTranslate } from '@/utils/checkVictory'
 import { GameSizeContext } from '@/utils/contexts/GameSizeContext'
 import useKeyDown from '@/utils/hooks/gamecontrols/useKeyDown'
 import { useAppDispatch } from '@/utils/hooks/useAppDispatch'
+import endLose from '@assets/img/end_lose.svg'
+import endTie from '@assets/img/end_tie.svg'
+import endWin from '@assets/img/end_win.svg'
+import archmagesLogo from '@assets/logo/logo-archmages.svg'
 import styles from './EndScreen.module.scss'
 import EndScreenReviewCardsBtn from './EndScreenReviewCardsBtn'
 
 const textMap = { lose: 'You Lose!', tie: 'Tie Game', win: 'You Win!' }
 const erathianTextMap = { lose: 'you lose', tie: 'tie game', win: 'you win' }
+const imageMap = { lose: endLose, tie: endTie, win: endWin }
 
 const EndScreen = (endScreenState: EndScreenNoCloseStateType) => {
   const dispatch = useAppDispatch()
@@ -115,6 +120,18 @@ const EndScreen = (endScreenState: EndScreenNoCloseStateType) => {
       {...clickObj}
     >
       <div className={cl(styles.main)} role="button" tabIndex={0}>
+        <img
+          className={styles.brandlogo}
+          src={archmagesLogo}
+          alt=""
+          draggable={false}
+        />
+        <img
+          className={styles.resultimage}
+          src={imageMap[type]}
+          alt=""
+          draggable={false}
+        />
         {noteText !== null && (
           <div className={cl(styles.notetext, 'robotocondensed el-text')}>
             {noteText}

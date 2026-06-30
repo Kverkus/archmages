@@ -22,11 +22,16 @@ const ButtonFullscreen = () => {
     }
   }
 
+  const stopWindowCancel = (e: React.MouseEvent) => {
+    e.stopPropagation()
+  }
+
   return (
     <button
       {...(isScreen ? { tabIndex: -1 } : {})}
       accessKey="f"
       className={cl('topbutton', styles.fullscreenbutton)}
+      onMouseDown={stopWindowCancel}
       onClick={clickFunc}
       onAuxClick={clickFunc}
       {...tooltipAttrs(_.i18n('Toggle Full Screen'), 'bottom')}
