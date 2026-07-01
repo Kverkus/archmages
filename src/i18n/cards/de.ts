@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '4 Schaden',
+    desc: '5 Schaden',
   },
   {
     name: 'Zwerge',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Schlitzer',
-    desc: '9 Schaden',
+    desc: '8 Schaden',
   },
   {
     name: 'Oger',
-    desc: '8 Schaden',
+    desc: '9 Schaden',
   },
   {
     name: 'Tollwütiges Schaf',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Werwolf',
-    desc: '10 Schaden',
+    desc: '12 Schaden',
   },
   {
     name: 'Korrosionswalke',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drache',
-    desc: '18 Schaden. Feind verliert 10 Edelsteine, -1 Feindmagie',
+    desc: '20 Schaden. Feind verliert 10 Edelsteine, -1 Feindmagie',
   },
   {
     name: 'Speerkämpfer',

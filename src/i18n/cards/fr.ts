@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '4 dégâts',
+    desc: '5 dégâts',
   },
   {
     name: 'Nains',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Faucheur',
-    desc: '9 dégâts',
+    desc: '8 dégâts',
   },
   {
     name: 'Ogre',
-    desc: '8 dégâts',
+    desc: '9 dégâts',
   },
   {
     name: 'Mouton enragé',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Loup-garou',
-    desc: '10 dégâts',
+    desc: '12 dégâts',
   },
   {
     name: 'Nuage de corrosion',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragon',
-    desc: '18 dégâts. Ennemi perd 10 gemmes, -1 magie ennemie',
+    desc: '20 dégâts. Ennemi perd 10 gemmes, -1 magie ennemie',
   },
   {
     name: 'Lancier',

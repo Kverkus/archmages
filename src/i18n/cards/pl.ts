@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ork',
-    desc: '4 obrażeń',
+    desc: '5 obrażeń',
   },
   {
     name: 'Krasnoludy',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Miecznik',
-    desc: '9 obrażeń',
+    desc: '8 obrażeń',
   },
   {
     name: 'Ogr',
-    desc: '8 obrażeń',
+    desc: '9 obrażeń',
   },
   {
     name: 'Szalone Owce',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Wilkołak',
-    desc: '10 obrażeń',
+    desc: '12 obrażeń',
   },
   {
     name: 'Chmura Korozji',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Smok',
-    desc: '18 obrażeń. Przeciwnik traci 10 klejnotów. -1 Magia przeciwnika',
+    desc: '20 obrażeń. Przeciwnik traci 10 klejnotów. -1 Magia przeciwnika',
   },
   {
     name: 'Włócznik',

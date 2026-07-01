@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '4 Dano',
+    desc: '5 Dano',
   },
   {
     name: 'Anões',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Assassino',
-    desc: '9 Dano',
+    desc: '8 Dano',
   },
   {
     name: 'Ogro',
-    desc: '8 Dano',
+    desc: '9 Dano',
   },
   {
     name: 'Ovelha Raivosa',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lobisomem',
-    desc: '10 Dano',
+    desc: '12 Dano',
   },
   {
     name: 'Nuvem de Corrosão',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragão',
-    desc: '18 Dano. Inimigo perde 10 gemas, -1 magia inimiga',
+    desc: '20 Dano. Inimigo perde 10 gemas, -1 magia inimiga',
   },
   {
     name: 'Lanceiro',

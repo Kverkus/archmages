@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orco',
-    desc: '4 daños',
+    desc: '5 daños',
   },
   {
     name: 'Enanos',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Troceador',
-    desc: '9 daños',
+    desc: '8 daños',
   },
   {
     name: 'Ogro',
-    desc: '8 daños',
+    desc: '9 daños',
   },
   {
     name: 'Oveja rabiosa',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Hombre lobo',
-    desc: '10 daños',
+    desc: '12 daños',
   },
   {
     name: 'Nube corrosiva',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragón',
-    desc: '18 daños. El enemigo pierde 10 gemas, -1 magia enemiga',
+    desc: '20 daños. El enemigo pierde 10 gemas, -1 magia enemiga',
   },
   {
     name: 'Lancero',

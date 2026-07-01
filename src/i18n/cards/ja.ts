@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'オーク',
-    desc: '4ダメージ',
+    desc: '5ダメージ',
   },
   {
     name: 'ドワーフ',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'スラッシャー',
-    desc: '9ダメージ',
+    desc: '8ダメージ',
   },
   {
     name: 'オーガ',
-    desc: '8ダメージ',
+    desc: '9ダメージ',
   },
   {
     name: '狂暴な羊',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '人狼',
-    desc: '10ダメージ',
+    desc: '12ダメージ',
   },
   {
     name: '腐食雲',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'ドラゴン',
-    desc: '18ダメージ。敵は宝石を10個失う。敵の魔法を-1',
+    desc: '20ダメージ。敵は宝石を10個失う。敵の魔法を-1',
   },
   {
     name: 'スピアマン',

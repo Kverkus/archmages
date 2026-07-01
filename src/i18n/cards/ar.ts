@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'الأورك',
-    desc: '4 ضرر',
+    desc: '5 ضرر',
   },
   {
     name: 'الأقزام',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'سلاشر',
-    desc: '9 ضرر',
+    desc: '8 ضرر',
   },
   {
     name: 'غول',
-    desc: '8 ضرر',
+    desc: '9 ضرر',
   },
   {
     name: 'الأغنام المسعورة',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'مستذئب',
-    desc: '10 ضرر',
+    desc: '12 ضرر',
   },
   {
     name: 'سحابة التآكل',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'تنين',
-    desc: '18 ضرر. العدو يخسر 10 جواهر، ‎-1 سحر العدو',
+    desc: '20 ضرر. العدو يخسر 10 جواهر، ‎-1 سحر العدو',
   },
   {
     name: 'رماح',

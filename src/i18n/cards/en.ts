@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orc',
-    desc: '4 Damage',
+    desc: '5 Damage',
   },
   {
     name: 'Dwarves',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Slasher',
-    desc: '9 Damage',
+    desc: '8 Damage',
   },
   {
     name: 'Ogre',
-    desc: '8 Damage',
+    desc: '9 Damage',
   },
   {
     name: 'Rabid Sheep',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Werewolf',
-    desc: '10 Damage',
+    desc: '12 Damage',
   },
   {
     name: 'Corrosion Cloud',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dragon',
-    desc: '18 Damage. Enemy loses 10 gems, -1 enemy magic',
+    desc: '20 Damage. Enemy loses 10 gems, -1 enemy magic',
   },
   {
     name: 'Spearman',

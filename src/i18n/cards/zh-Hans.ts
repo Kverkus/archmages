@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '兽人进攻',
-    desc: '4点攻击',
+    desc: '5点攻击',
   },
   {
     name: '矮人小队',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '杀人魔鬼',
-    desc: '9点攻击',
+    desc: '8点攻击',
   },
   {
     name: '食人巨妖',
-    desc: '8点攻击',
+    desc: '9点攻击',
   },
   {
     name: '狂暴公羊',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '半人半狼',
-    desc: '10点攻击',
+    desc: '12点攻击',
   },
   {
     name: '腐蚀之云',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '无敌天龙',
-    desc: '18点攻击，对手宝石-10，宝石产量-1',
+    desc: '20点攻击，对手宝石-10，宝石产量-1',
   },
   {
     name: '长矛枪兵',

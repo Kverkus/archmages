@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '오크',
-    desc: '피해 4',
+    desc: '피해 5',
   },
   {
     name: '드워프',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '도살자',
-    desc: '피해 9',
+    desc: '피해 8',
   },
   {
     name: '오거',
-    desc: '피해 8',
+    desc: '피해 9',
   },
   {
     name: '광란의 양',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '늑대인간',
-    desc: '피해 10',
+    desc: '피해 12',
   },
   {
     name: '부식 구름',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: '드래곤',
-    desc: '피해 18. 적이 보석 10개를 잃습니다, 적 마법 -1',
+    desc: '피해 20. 적이 보석 10개를 잃습니다, 적 마법 -1',
   },
   {
     name: '창병',

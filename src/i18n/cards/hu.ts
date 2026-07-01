@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Ork',
-    desc: '4 sebzés',
+    desc: '5 sebzés',
   },
   {
     name: 'Törpék',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Hasító',
-    desc: '9 sebzés',
+    desc: '8 sebzés',
   },
   {
     name: 'Ogre',
-    desc: '8 sebzés',
+    desc: '9 sebzés',
   },
   {
     name: 'Veszett bárány',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Vérfarkas',
-    desc: '10 sebzés',
+    desc: '12 sebzés',
   },
   {
     name: 'Korróziós felhő',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Sárkány',
-    desc: '18 sebzés. Az ellenség veszít 10 drágakövet, -1 ellenséges mágia',
+    desc: '20 sebzés. Az ellenség veszít 10 drágakövet, -1 ellenséges mágia',
   },
   {
     name: 'Lándzsás',

@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Orchetto',
-    desc: '4 danni',
+    desc: '5 danni',
   },
   {
     name: 'Nani',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Massacratore',
-    desc: '9 danni',
+    desc: '8 danni',
   },
   {
     name: 'Orco',
-    desc: '8 danni',
+    desc: '9 danni',
   },
   {
     name: 'Pecora Rabbiosa',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Lupo Mannaro',
-    desc: '10 danni',
+    desc: '12 danni',
   },
   {
     name: 'Nube Corrosiva',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drago',
-    desc: '18 danni. Il nemico perde 10 gemme, -1 Magia del nemico',
+    desc: '20 danni. Il nemico perde 10 gemme, -1 Magia del nemico',
   },
   {
     name: 'Lanciere',

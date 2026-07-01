@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Орк',
-    desc: '4 ед. урона врагу',
+    desc: '5 ед. урона врагу',
   },
   {
     name: 'Гномы',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Кромсатель',
-    desc: '9 ед. урона врагу',
+    desc: '8 ед. урона врагу',
   },
   {
     name: 'Огр',
-    desc: '8 ед. урона врагу',
+    desc: '9 ед. урона врагу',
   },
   {
     name: 'Бешеная Овца',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Оборотень',
-    desc: '10 ед. урона',
+    desc: '12 ед. урона',
   },
   {
     name: 'Едкое Облако',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Дракон',
-    desc: '18 ед. урона врагу. -1 к Магии врага. Враг теряет 10 Самоцветов',
+    desc: '20 ед. урона врагу. -1 к Магии врага. Враг теряет 10 Самоцветов',
   },
   {
     name: 'Копейщик',

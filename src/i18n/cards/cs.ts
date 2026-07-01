@@ -307,7 +307,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Skřet',
-    desc: '4 Poškození',
+    desc: '5 Poškození',
   },
   {
     name: 'Trpaslíci',
@@ -331,11 +331,11 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Dobyvatel',
-    desc: '9 Poškození',
+    desc: '8 Poškození',
   },
   {
     name: 'Zlobr',
-    desc: '8 Poškození',
+    desc: '9 Poškození',
   },
   {
     name: 'Divoká ovce',
@@ -351,7 +351,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Vlkodlak',
-    desc: '10 Poškození',
+    desc: '12 Poškození',
   },
   {
     name: 'Mrak koroze',
@@ -387,7 +387,7 @@ export const cardsI18n: DataCardsI18nType = [
   },
   {
     name: 'Drak',
-    desc: '18 Poškození. Soupeř ztratí 10 Drahokamů, -1 soupeřova Magie',
+    desc: '20 Poškození. Soupeř ztratí 10 Drahokamů, -1 soupeřova Magie',
   },
   {
     name: 'Kopiník',

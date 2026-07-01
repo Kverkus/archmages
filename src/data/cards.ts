@@ -932,12 +932,12 @@ const cards: DataCardsType = [
   {
     // 76
     // name: 'Orc',
-    // desc: '4 Damage',
+    // desc: '5 Damage',
     type: 2,
     cost: 3,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 4)
+      damage(o, 5)
     },
   },
   {
@@ -1003,23 +1003,23 @@ const cards: DataCardsType = [
   {
     // 82
     // name: 'Slasher',
-    // desc: '9 Damage',
+    // desc: '8 Damage',
     type: 2,
-    cost: 7,
+    cost: 5,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 9)
+      damage(o, 8)
     },
   },
   {
     // 83
     // name: 'Ogre',
-    // desc: '8 Damage',
+    // desc: '9 Damage',
     type: 2,
     cost: 6,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 8)
+      damage(o, 9)
     },
   },
   {
@@ -1027,7 +1027,7 @@ const cards: DataCardsType = [
     // name: 'Rabid Sheep',
     // desc: '6 Damage. Enemy loses 4 recruits',
     type: 2,
-    cost: 6,
+    cost: 5,
     prob: 3,
     effect: (p, o) => {
       damage(o, 6)
@@ -1056,7 +1056,7 @@ const cards: DataCardsType = [
     // name: 'Spizzer',
     // desc: 'If enemy wall = 0, 10 damage, else 6 damage',
     type: 2,
-    cost: 7,
+    cost: 6,
     prob: 3,
     effect: (p, o) => {
       if (o.wall === 0) {
@@ -1069,12 +1069,12 @@ const cards: DataCardsType = [
   {
     // 87
     // name: 'Werewolf',
-    // desc: '10 Damage',
+    // desc: '12 Damage',
     type: 2,
-    cost: 8,
+    cost: 9,
     prob: 3,
     effect: (p, o) => {
-      damage(o, 10)
+      damage(o, 12)
     },
   },
   {
@@ -1082,7 +1082,7 @@ const cards: DataCardsType = [
     // name: 'Corrosion Cloud',
     // desc: 'If enemy wall > 0, 10 damage, else 7 damage',
     type: 2,
-    cost: 8,
+    cost: 7,
     prob: 3,
     effect: (p, o) => {
       if (o.wall > 0) {
@@ -1139,7 +1139,7 @@ const cards: DataCardsType = [
     // name: 'Rock Stompers',
     // desc: '8 Damage, -1 enemy quarry',
     type: 2,
-    cost: 13,
+    cost: 12,
     prob: 2,
     effect: (p, o) => {
       damage(o, 8)
@@ -1188,12 +1188,12 @@ const cards: DataCardsType = [
   {
     // 96
     // name: 'Dragon',
-    // desc: '18 Damage. Enemy loses 10 gems, -1 enemy magic',
+    // desc: '20 Damage. Enemy loses 10 gems, -1 enemy magic',
     type: 2,
     cost: 21,
     prob: 2,
     effect: (p, o) => {
-      damage(o, 18)
+      damage(o, 20)
       change(o, 'gems', -10)
       change(o, 'gemProd', -1)
     },
